@@ -1,6 +1,6 @@
 {
   "m_Shader": {
-    "m_FileID": 1,
+    "m_FileID": 2,
     "m_PathID": -6868644443425792852,
     "Name": "miHoYo/Character/Base",
     "IsNull": false
@@ -41,10 +41,10 @@
       },
       "_BumpMap": {
         "m_Texture": {
-          "m_FileID": 2,
-          "m_PathID": -5474999970673257836,
-          "Name": "Avatar_Girl_Sword_Funingna_Tex_Body_Normalmap",
-          "IsNull": false
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
         },
         "m_Scale": {
           "X": 1.0,
@@ -89,7 +89,7 @@
       },
       "_LightMapTex": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 5,
           "m_PathID": 325237988800653443,
           "Name": "Avatar_Girl_Sword_Funingna_Tex_Body_Lightmap",
           "IsNull": false
@@ -105,7 +105,7 @@
       },
       "_MTMap": {
         "m_Texture": {
-          "m_FileID": 4,
+          "m_FileID": 6,
           "m_PathID": -867313356815120306,
           "Name": "Avatar_Tex_MetalMap",
           "IsNull": false
@@ -121,7 +121,7 @@
       },
       "_MTSpecularRamp": {
         "m_Texture": {
-          "m_FileID": 5,
+          "m_FileID": 1,
           "m_PathID": 5094753009728422861,
           "Name": "Avatar_Tex_Specular_Ramp",
           "IsNull": false
@@ -137,7 +137,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 6,
+          "m_FileID": 3,
           "m_PathID": 328855781183660352,
           "Name": "Avatar_Girl_Sword_Funingna_Tex_Body_Diffuse",
           "IsNull": false
@@ -169,7 +169,7 @@
       },
       "_PackedShadowRampTex": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 4,
           "m_PathID": 4801923792393738373,
           "Name": "Avatar_Girl_Sword_Funingna_Tex_Body_Shadow_Ramp",
           "IsNull": false
@@ -188,7 +188,7 @@
     "m_Floats": {
       "_ANIMATE_NON_SKINNEDMESH": 0.0,
       "_ASEHeader": 0.0,
-      "_AmbientPointColorDensity": 0.2,
+      "_AmbientPointColorDensity": 0.5,
       "_AmbientPointFlatness": 1.0,
       "_AmbientPointRange": 0.85,
       "_AmbientPointSoftness": 0.3,
@@ -211,9 +211,9 @@
       "_ClipDissolveValue": 1.0,
       "_ClipMethod": 0.0,
       "_ClipPlaneWorld": 1.0,
-      "_CullMode": 2.0,
+      "_CullMode": 0.0,
       "_DitherAlpha": 1.0,
-      "_DrawBackFace": 0.0,
+      "_DrawBackFace": 1.0,
       "_ElementViewEleID": 0.0,
       "_EmissionScaler": 4.0,
       "_EmissionScaler1": 1.0,
@@ -243,8 +243,8 @@
       "_MaxOutlineZOffset": 1.0,
       "_MetalMaterial": 1.0,
       "_OutlineMotionVectorsCull": 1.0,
-      "_OutlinePolygonOffsetFactor": 0.0,
-      "_OutlinePolygonOffsetUnit": 0.0,
+      "_OutlinePolygonOffsetFactor": 4.0,
+      "_OutlinePolygonOffsetUnit": 1.0,
       "_OutlineType": 2.0,
       "_OutlineWidth": 0.03,
       "_PolygonOffsetFactor": 0.0,
@@ -262,12 +262,12 @@
       "_ShadowTransitionSoftness4": 0.5,
       "_ShadowTransitionSoftness5": 0.5,
       "_Shininess": 6.0,
-      "_Shininess2": 7.5,
+      "_Shininess2": 10.0,
       "_Shininess3": 6.0,
       "_Shininess4": 10.0,
       "_Shininess5": 10.0,
       "_SpecMulti": 0.05,
-      "_SpecMulti2": 0.2,
+      "_SpecMulti2": 0.1,
       "_SpecMulti3": 0.1,
       "_SpecMulti4": 0.1,
       "_SpecMulti5": 0.1,
@@ -282,16 +282,16 @@
       "_TextureLineSmoothness": 0.15,
       "_TextureLineThickness": 0.55,
       "_UseAmbientPoint": 0.0,
-      "_UseBackFaceUV2": 0.0,
-      "_UseBumpMap": 1.0,
+      "_UseBackFaceUV2": 1.0,
+      "_UseBumpMap": 0.0,
       "_UseClipPlane": 0.0,
       "_UseClipping": 0.0,
       "_UseCoolShadowColorOrTex": 1.0,
       "_UseFaceMapNew": 0.0,
       "_UseLightMapColorAO": 1.0,
-      "_UseMaterial2": 1.0,
+      "_UseMaterial2": 0.0,
       "_UseMaterial3": 1.0,
-      "_UseMaterial4": 1.0,
+      "_UseMaterial4": 0.0,
       "_UseMaterial5": 0.0,
       "_UseMaterialMasksTex": 0.0,
       "_UseShadowRamp": 1.0,
@@ -337,8 +337,8 @@
       },
       "_Color2": {
         "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
+        "g": 0.0,
+        "b": 0.0,
         "a": 1.0
       },
       "_Color3": {
@@ -360,9 +360,9 @@
         "a": 1.0
       },
       "_CoolShadowMultColor": {
-        "r": 0.9450981,
-        "g": 0.7294118,
-        "b": 0.7294118,
+        "r": 0.9,
+        "g": 0.7,
+        "b": 0.75,
         "a": 1.0
       },
       "_CoolShadowMultColor2": {
@@ -372,9 +372,9 @@
         "a": 1.0
       },
       "_CoolShadowMultColor3": {
-        "r": 0.94509804,
-        "g": 0.7294118,
-        "b": 0.7294118,
+        "r": 0.8470589,
+        "g": 0.7058824,
+        "b": 0.7490196,
         "a": 1.0
       },
       "_CoolShadowMultColor4": {
@@ -408,20 +408,20 @@
         "a": 1.0
       },
       "_FirstShadowMultColor": {
-        "r": 0.92549026,
-        "g": 0.7686275,
-        "b": 0.7294118,
+        "r": 0.75735295,
+        "g": 0.6181336,
+        "b": 0.6181336,
         "a": 1.0
       },
       "_FirstShadowMultColor2": {
-        "r": 0.8970588,
+        "r": 0.89705884,
         "g": 0.6730748,
         "b": 0.64641005,
         "a": 1.0
       },
       "_FirstShadowMultColor3": {
-        "r": 0.9254902,
-        "g": 0.76862746,
+        "r": 0.92549026,
+        "g": 0.7686275,
         "b": 0.7294118,
         "a": 1.0
       },
@@ -480,8 +480,8 @@
         "a": 1.0
       },
       "_OutlineColor": {
-        "r": 0.32331303,
-        "g": 0.33930907,
+        "r": 0.32331306,
+        "g": 0.3393091,
         "b": 0.4779411,
         "a": 1.0
       },
@@ -504,9 +504,9 @@
         "a": 1.0
       },
       "_OutlineColor5": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
         "a": 1.0
       },
       "_OutlineWidthAdjustScales": {
@@ -547,6 +547,6 @@
       }
     }
   },
-  "m_Name": "Avatar_Girl_Sword_Funingna_Mat_Body",
-  "Name": "Avatar_Girl_Sword_Funingna_Mat_Body"
+  "m_Name": "Avatar_Girl_Sword_Funingna_Mat_Dress",
+  "Name": "Avatar_Girl_Sword_Funingna_Mat_Dress"
 }
