@@ -1,8 +1,8 @@
 {
   "m_Shader": {
-    "m_FileID": 5,
+    "m_FileID": 4,
     "m_PathID": -2450102786899883420,
-    "Name": "miHoYo/Effects/Eff_Mavuika_VAT",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -41,7 +41,7 @@
       },
       "_HighlightMaskTex2": {
         "m_Texture": {
-          "m_FileID": 8,
+          "m_FileID": 6,
           "m_PathID": -211348980107855294,
           "Name": "Eff_Symbol_Mavuika_00",
           "IsNull": false
@@ -73,26 +73,10 @@
       },
       "_PosTex_A": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 5,
           "m_PathID": 5504642054398215855,
           "Name": "Eff_Symbol_Mavuika_VAT_00",
           "IsNull": false
-        },
-        "m_Scale": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "m_Offset": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "_PosTex_B": {
-        "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
         },
         "m_Scale": {
           "X": 1.0,
@@ -137,10 +121,10 @@
       },
       "_RotTex_A": {
         "m_Texture": {
-          "m_FileID": 4,
-          "m_PathID": 9190536142207384801,
-          "Name": "Eff_Symbol_Mavuika_VAT_01",
-          "IsNull": false
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
         },
         "m_Scale": {
           "X": 1.0,
@@ -153,10 +137,10 @@
       },
       "_RotTex_B": {
         "m_Texture": {
-          "m_FileID": 6,
-          "m_PathID": 7213004640613396271,
-          "Name": "Eff_Symbol_Mavuika_VAT_02",
-          "IsNull": false
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
         },
         "m_Scale": {
           "X": 1.0,
@@ -178,13 +162,12 @@
       "_BoundMinY": -0.05844,
       "_BoundMinZ": -0.08095,
       "_CurrentFrame": 45.0,
-      "_CutOff": 0.785,
+      "_DisappearByVerColAlpha": 0.0,
       "_DitherAlpha": 1.0,
-      "_Dx11ShaderPsScore": 0.0,
-      "_Dx11ShaderScore": 0.0,
-      "_Dx11ShaderVsScore": 0.0,
+      "_Dx11ShaderPsScore": 83.0,
+      "_Dx11ShaderScore": 245.0,
+      "_Dx11ShaderVsScore": 162.0,
       "_ElementViewEleID": 0.0,
-      "_EnableAlphaTest": 1.0,
       "_FrameCount": 60.0,
       "_FresR": -0.11,
       "_FresS": 1.0,
@@ -196,14 +179,11 @@
       "_MR": -0.07,
       "_MS": 0.5,
       "_MainSwitch": 0.0,
-      "_MaterialShadowBias": 0.0,
       "_R": 0.0,
       "_RampR": 0.5,
       "_RampS": 0.4,
-      "_ReceiveShadow": 0.0,
       "_RempLerp": 0.0,
       "_S": 1.0,
-      "_Scale": 0.01,
       "_Speed": 0.5,
       "_TimeShift": 1.0,
       "_UsingDitherAlpha": 0.0

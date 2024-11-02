@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -5030116878936476770,
-    "Name": "miHoYo/Character/Character_Base_Uber",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -380,6 +380,7 @@
       "_OutLineIntensity5": 0.0,
       "_OutlineGroup": 0.0,
       "_OutlineMotionVectorsCull": 1.0,
+      "_OutlineOffsetBlockBChannel": 0.0,
       "_OutlinePolygonOffsetFactor": 0.0,
       "_OutlinePolygonOffsetUnit": 0.0,
       "_OutlineType": 2.0,
@@ -641,6 +642,30 @@
         "g": 1.0,
         "b": 1.0,
         "a": 1.0
+      },
+      "_EmissionScaler_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
       },
       "_FaceBlushColor": {
         "r": 1.0,

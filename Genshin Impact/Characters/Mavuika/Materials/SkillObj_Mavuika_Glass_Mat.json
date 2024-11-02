@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -6868644443425792852,
-    "Name": "miHoYo/Character/Base",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -298,6 +298,7 @@
       "_UseMaterial4": 0.0,
       "_UseMaterial5": 0.0,
       "_UseMaterialMasksTex": 0.0,
+      "_UseSaturation": 0.0,
       "_UseShadowRamp": 0.0,
       "_UseShadowTransition": 0.0,
       "_UseToonLightMap": 1.0,

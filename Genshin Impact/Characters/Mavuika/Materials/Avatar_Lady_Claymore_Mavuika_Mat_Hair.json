@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -5030116878936476770,
-    "Name": "miHoYo/Character/Character_Base_Uber",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -285,11 +285,11 @@
       "_DummyOutline": 0.0,
       "_DummyTextureLine": 0.0,
       "_DummyUseDither": 0.0,
-      "_Dx11ShaderPsScore": 138.0,
-      "_Dx11ShaderScore": 259.0,
+      "_Dx11ShaderPsScore": 133.0,
+      "_Dx11ShaderScore": 254.0,
       "_Dx11ShaderVsScore": 121.0,
       "_ElementViewEleID": 0.0,
-      "_EmissionScaler": 1.0,
+      "_EmissionScaler": 1.5,
       "_EmissionScaler1": 1.0,
       "_EmissionScaler2": 1.0,
       "_EmissionScaler3": 1.0,
@@ -347,6 +347,7 @@
       "_OutLineIntensity5": 0.0,
       "_OutlineGroup": 0.0,
       "_OutlineMotionVectorsCull": 1.0,
+      "_OutlineOffsetBlockBChannel": 0.0,
       "_OutlinePolygonOffsetFactor": 0.0,
       "_OutlinePolygonOffsetUnit": 0.0,
       "_OutlineType": 2.0,
@@ -368,13 +369,13 @@
       "_ShadowTransitionSoftness3": 0.5,
       "_ShadowTransitionSoftness4": 0.5,
       "_ShadowTransitionSoftness5": 0.5,
-      "_Shininess": 10.0,
+      "_Shininess": 8.0,
       "_Shininess2": 10.0,
       "_Shininess3": 10.0,
       "_Shininess4": 10.0,
       "_Shininess5": 10.0,
       "_SmoothnessTextureChannel": 0.0,
-      "_SpecMulti": 0.1,
+      "_SpecMulti": 0.3,
       "_SpecMulti2": 0.1,
       "_SpecMulti3": 0.1,
       "_SpecMulti4": 0.1,
@@ -384,7 +385,7 @@
       "_SpecOpacity3": 0.0,
       "_SpecOpacity4": 0.0,
       "_SpecOpacity5": 0.0,
-      "_SpecualrInShaow": 0.0,
+      "_SpecualrInShaow": 0.4,
       "_SpecularHighlights": 1.0,
       "_SrcBlend": 1.0,
       "_TempNyxStatePaintMaskChannel": 0.0,
@@ -427,7 +428,7 @@
       "_shadowSoftRange3": 0.0,
       "_shadowSoftRange4": 0.0,
       "_shadowSoftRange5": 0.0,
-      "_useShadowSoft": 0.0,
+      "_useShadowSoft": 1.0,
       "_useShadowSoft2": 0.0,
       "_useShadowSoft3": 0.0,
       "_useShadowSoft4": 0.0,
@@ -589,6 +590,30 @@
         "g": 1.0,
         "b": 1.0,
         "a": 1.0
+      },
+      "_EmissionScaler_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
       },
       "_FaceBlushColor": {
         "r": 1.0,

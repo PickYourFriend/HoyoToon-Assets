@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -5030116878936476770,
-    "Name": "miHoYo/Character/Character_Base_Uber",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -285,8 +285,8 @@
       "_DummyOutline": 0.0,
       "_DummyTextureLine": 0.0,
       "_DummyUseDither": 0.0,
-      "_Dx11ShaderPsScore": 138.0,
-      "_Dx11ShaderScore": 259.0,
+      "_Dx11ShaderPsScore": 133.0,
+      "_Dx11ShaderScore": 254.0,
       "_Dx11ShaderVsScore": 121.0,
       "_ElementViewEleID": 0.0,
       "_EmissionScaler": 3.0,
@@ -347,6 +347,7 @@
       "_OutLineIntensity5": 0.0,
       "_OutlineGroup": 0.0,
       "_OutlineMotionVectorsCull": 1.0,
+      "_OutlineOffsetBlockBChannel": 0.0,
       "_OutlinePolygonOffsetFactor": 0.0,
       "_OutlinePolygonOffsetUnit": 0.0,
       "_OutlineType": 2.0,
@@ -384,7 +385,7 @@
       "_SpecOpacity3": 0.0,
       "_SpecOpacity4": 0.0,
       "_SpecOpacity5": 0.0,
-      "_SpecualrInShaow": 0.0,
+      "_SpecualrInShaow": 0.4,
       "_SpecularHighlights": 1.0,
       "_SrcBlend": 1.0,
       "_TempNyxStatePaintMaskChannel": 0.0,
@@ -589,6 +590,30 @@
         "g": 1.0,
         "b": 1.0,
         "a": 1.0
+      },
+      "_EmissionScaler_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
       },
       "_FaceBlushColor": {
         "r": 1.0,

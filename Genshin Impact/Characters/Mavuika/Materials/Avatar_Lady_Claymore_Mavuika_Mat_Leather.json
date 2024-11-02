@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -4733054690382405114,
-    "Name": "miHoYo/Character/Character_Uber_Leather",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -302,8 +302,8 @@
       "_DummyOutline": 0.0,
       "_DummyTextureLine": 0.0,
       "_DummyUseDither": 0.0,
-      "_Dx11ShaderPsScore": 152.0,
-      "_Dx11ShaderScore": 273.0,
+      "_Dx11ShaderPsScore": 137.0,
+      "_Dx11ShaderScore": 258.0,
       "_Dx11ShaderVsScore": 121.0,
       "_ElementViewEleID": 0.0,
       "_EmissionScaler": 3.0,
@@ -417,7 +417,7 @@
       "_SpecOpacity3": 0.0,
       "_SpecOpacity4": 0.0,
       "_SpecOpacity5": 0.0,
-      "_SpecualrInShaow": 0.0,
+      "_SpecualrInShaow": 0.4,
       "_SpecularHighlights": 1.0,
       "_SpecularOffset": 0.0,
       "_SrcBlend": 1.0,
@@ -463,8 +463,14 @@
       "_isSecondLayer": 0.0,
       "_isThridLayer": 0.0,
       "_shadowSoftRange": 1.0,
+      "_shadowSoftRange2": 0.0,
+      "_shadowSoftRange3": 0.0,
+      "_shadowSoftRange4": 0.0,
       "_shadowSoftRange5": 0.0,
       "_useShadowSoft": 0.0,
+      "_useShadowSoft2": 0.0,
+      "_useShadowSoft3": 0.0,
+      "_useShadowSoft4": 0.0,
       "_useShadowSoft5": 0.0
     },
     "m_Colors": {
