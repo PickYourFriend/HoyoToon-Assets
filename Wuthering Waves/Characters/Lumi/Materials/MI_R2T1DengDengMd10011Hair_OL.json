@@ -1,0 +1,54 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/R2T1DengDengMd10011/Model/T_R2T1DengDengMd10011Hair_D.T_R2T1DengDengMd10011Hair_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/R2T1DengDengMd10011/Model/T_R2T1DengDengMd10011Hair_D.T_R2T1DengDengMd10011Hair_D",
+    "T_R2T1DengDengMd10011Hair_D": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/R2T1DengDengMd10011/Model/T_R2T1DengDengMd10011Hair_D.T_R2T1DengDengMd10011Hair_D"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "OutlineColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "OutlineColorTint": {
+        "R": 0.526042,
+        "G": 0.526042,
+        "B": 0.526042,
+        "A": 0.0,
+        "Hex": "C0C0C0"
+      }
+    },
+    "Scalars": {
+      "OutlineWidth": 0.09,
+      "InnerOutlineOffset": 1.982432,
+      "OutlineClipWidth": 0.860663,
+      "OutlineHoldDistance": 0.895238,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseMainTex": true,
+      "UseVertexGreen_OutlineWidth": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_ToonOutline",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 250,
+        "bDisableCastDynamicShadows": true,
+        "bIsBackFace": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
