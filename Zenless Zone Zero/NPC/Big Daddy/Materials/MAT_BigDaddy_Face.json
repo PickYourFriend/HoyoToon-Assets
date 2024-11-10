@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 2,
     "m_PathID": -2688699677673531660,
-    "Name": "miHoYo/Character/NapAvatarNPCFace",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -58,8 +58,8 @@
       "_LightTex": {
         "m_Texture": {
           "m_FileID": 1,
-          "m_PathID": -6949573086790022432,
-          "Name": "NPC_Face_BigDaddy_lightmap",
+          "m_PathID": -5098142636226502188,
+          "Name": "NPC_Face_BigDaddy_Lightmap",
           "IsNull": false
         },
         "m_Scale": {
@@ -287,7 +287,9 @@
       "_AbnormalPropertyElectro": 0.0,
       "_AbnormalPropertyFreeze": 0.0,
       "_AdditionalLightIntensity": 1.0,
-      "_AlbedoSmoothness": 0.05,
+      "_AlbedoSmoothness": 0.02,
+      "_AlbedoSmoothness2": 0.1,
+      "_AlbedoSmoothness3": 0.1,
       "_AlphaClip": 0.0,
       "_AmbientColorScale": 1.0,
       "_BShift": 0.0,

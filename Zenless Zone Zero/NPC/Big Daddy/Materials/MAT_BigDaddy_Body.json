@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -1321470867920477079,
-    "Name": "miHoYo/Character/NapAvatarNPC",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -432,6 +432,10 @@
       "_AbnormalPropertyFreeze": 0.0,
       "_AdditionalLightIntensity": 1.0,
       "_AlbedoSmoothness": 0.1,
+      "_AlbedoSmoothness2": 0.1,
+      "_AlbedoSmoothness3": 0.1,
+      "_AlbedoSmoothness4": 0.1,
+      "_AlbedoSmoothness5": 0.1,
       "_AlphaClip": 0.0,
       "_AmbientColorScale": 1.0,
       "_BShift": 0.0,
@@ -646,7 +650,7 @@
       "_ShapeSoftness5": 0.1,
       "_ShiftAngle": 120.0,
       "_ShiftAngleForCGLighting": 120.0,
-      "_SkinMatId": 5.0,
+      "_SkinMatId": 0.0,
       "_SoftLight": 0.0,
       "_SoftLightWidth": 0.1,
       "_Softness": 0.0,
@@ -671,7 +675,7 @@
       "_StretchDistance": 0.0,
       "_StretchPercentage": 0.0,
       "_SymmetryUV": 0.0,
-      "_TabSelection": 2.0,
+      "_TabSelection": 0.0,
       "_ToonSpecular": 0.01,
       "_ToonSpecular2": 0.01,
       "_ToonSpecular3": 0.01,
