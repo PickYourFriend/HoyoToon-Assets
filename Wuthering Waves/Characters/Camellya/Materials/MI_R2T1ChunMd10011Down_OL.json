@@ -1,0 +1,47 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleM/Chun/R2T1ChunMd10011/Model/T_R2T1ChunMd10011Down_LD.T_R2T1ChunMd10011Down_LD",
+    "T_R2T1ChunMd10011Down_LD": "Client/Content/Aki/Character/Role/FemaleM/Chun/R2T1ChunMd10011/Model/T_R2T1ChunMd10011Down_LD.T_R2T1ChunMd10011Down_LD"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "OutlineColorTint": {
+        "R": 0.633819,
+        "G": 0.56,
+        "B": 0.7,
+        "A": 1.0,
+        "Hex": "D1C6DA"
+      }
+    },
+    "Scalars": {
+      "OutlineWidth": 0.12,
+      "OutlineClipWidth": 1.5,
+      "OutlineHoldDistance": 1.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseMainTex": true,
+      "UseCurvature": false,
+      "UseVertexColorB_InnerOutline": true,
+      "UseVertexGreen_OutlineWidth": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_ToonOutline",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 250,
+        "bDisableCastDynamicShadows": true,
+        "bIsBackFace": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
