@@ -1,15 +1,15 @@
 {
   "m_Shader": {
-    "m_FileID": 1,
+    "m_FileID": 3,
     "m_PathID": -5030116878936476770,
-    "Name": "miHoYo/Character/Character_Base_Uber",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
     "m_TexEnvs": {
       "_BumpMap": {
         "m_Texture": {
-          "m_FileID": 6,
+          "m_FileID": 5,
           "m_PathID": -3670504150380290369,
           "Name": "Avatar_Girl_Catalyst_Citlali_Tex_Body_Normalmap",
           "IsNull": false
@@ -24,6 +24,22 @@
         }
       },
       "_FaceMapTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_FakePointNoiseTex": {
         "m_Texture": {
           "m_FileID": 0,
           "m_PathID": 0,
@@ -57,7 +73,7 @@
       },
       "_LightMapTex": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 2,
           "m_PathID": -6541349791531038748,
           "Name": "Avatar_Girl_Catalyst_Citlali_Tex_Body_Lightmap",
           "IsNull": false
@@ -73,7 +89,7 @@
       },
       "_MTMap": {
         "m_Texture": {
-          "m_FileID": 9,
+          "m_FileID": 8,
           "m_PathID": -867313356815120306,
           "Name": "Avatar_Tex_MetalMap",
           "IsNull": false
@@ -89,9 +105,9 @@
       },
       "_MTSpecularRamp": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 6,
           "m_PathID": 9009242053262278035,
-          "Name": "",
+          "Name": "Avatar_Loli_Claymore_Dori_Tex_Body_Specular_Ramp",
           "IsNull": false
         },
         "m_Scale": {
@@ -105,7 +121,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 10,
+          "m_FileID": 9,
           "m_PathID": 7669846408862459524,
           "Name": "Avatar_Girl_Catalyst_Citlali_Tex_Body_Diffuse",
           "IsNull": false
@@ -153,9 +169,9 @@
       },
       "_NyxStateOutlineColorRamp": {
         "m_Texture": {
-          "m_FileID": 8,
-          "m_PathID": 6411015404176483905,
-          "Name": "Avatar_Girl_Catalyst_Mualani_Tex_NyxState_Ramp",
+          "m_FileID": 10,
+          "m_PathID": 5731847254936623147,
+          "Name": "Eff_Avatar_Citlail_Nyx_Ramp_NoStream",
           "IsNull": false
         },
         "m_Scale": {
@@ -169,10 +185,42 @@
       },
       "_NyxStateOutlineNoise": {
         "m_Texture": {
-          "m_FileID": 2,
+          "m_FileID": 1,
           "m_PathID": 1718990294553321755,
           "Name": "Eff_Avatar_NyxState",
           "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_PVMask1": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_PVMask2": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
         },
         "m_Scale": {
           "X": 1.0,
@@ -217,9 +265,9 @@
       },
       "_TempNyxStatePaintMaskTex": {
         "m_Texture": {
-          "m_FileID": 5,
-          "m_PathID": 1384812381994989890,
-          "Name": "Avatar_Girl_Catalyst_Mualani_Tex_Mask",
+          "m_FileID": 7,
+          "m_PathID": -2734518468999697368,
+          "Name": "Avatar_Girl_Catalyst_Citlali_Tex_Mask",
           "IsNull": false
         },
         "m_Scale": {
@@ -294,10 +342,11 @@
       "_DummyOutline": 0.0,
       "_DummyTextureLine": 0.0,
       "_DummyUseDither": 0.0,
-      "_Dx11ShaderPsScore": 137.0,
-      "_Dx11ShaderScore": 259.0,
-      "_Dx11ShaderVsScore": 122.0,
+      "_Dx11ShaderPsScore": 0.0,
+      "_Dx11ShaderScore": 0.0,
+      "_Dx11ShaderVsScore": 0.0,
       "_ElementViewEleID": 0.0,
+      "_EmissionBloomScale": 1.3,
       "_EmissionScaler": 1.0,
       "_EmissionScaler1": 1.0,
       "_EmissionScaler2": 1.0,
@@ -307,10 +356,18 @@
       "_EmissionStrengthLerp": 0.0,
       "_EnableCustomParams": 0.0,
       "_EnableDistanceLerp": 0.0,
+      "_EnableEmissionBloom": 0.0,
       "_EnablePerformance": 0.0,
       "_FaceBlushStrength": 0.0,
       "_FaceMapRotateOffset": 0.0,
       "_FaceMapSoftness": 1E-06,
+      "_FakePointFrequency": 0.0,
+      "_FakePointFrequencyMin": 0.0,
+      "_FakePointIntensity": 1.0,
+      "_FakePointRange": 1.0,
+      "_FakePointReflection": 1.0,
+      "_FakePointSkinIntensity": 1.0,
+      "_FakePointSkinSaturate": 0.0,
       "_FlareType": 0.0,
       "_GlossMapScale": 1.0,
       "_Glossiness": 0.5,
@@ -329,6 +386,7 @@
       "_MTSpecularAttenInShadow": 0.2,
       "_MTSpecularOffset": 0.0,
       "_MTSpecularScale": 1.1,
+      "_MTSpecularShadowScale": 0.0,
       "_MTUseSpecularRamp": 1.0,
       "_MainSettingsGroup": 0.0,
       "_MainTexAlphaCutoff": 0.5,
@@ -420,6 +478,7 @@
       "_UseClipping": 0.0,
       "_UseCoolShadowColorOrTex": 1.0,
       "_UseFaceMapNew": 0.0,
+      "_UseFakePoint": 0.0,
       "_UseLightMapColorAO": 1.0,
       "_UseMaterial2": 1.0,
       "_UseMaterial3": 0.0,
@@ -427,6 +486,8 @@
       "_UseMaterial5": 0.0,
       "_UseMaterialMasksTex": 0.0,
       "_UseNPCColoring": 0.0,
+      "_UsePVMask1": 0.0,
+      "_UsePVMask2": 0.0,
       "_UseShadowRamp": 1.0,
       "_UseShadowTransition": 1.0,
       "_UseSpecular": 0.0,
@@ -565,6 +626,12 @@
         "b": 0.0,
         "a": 0.0
       },
+      "_EmissionBloomColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
       "_EmissionColor": {
         "r": 0.0,
         "g": 0.0,
@@ -636,6 +703,18 @@
         "g": 0.8,
         "b": 0.7,
         "a": 1.0
+      },
+      "_FakePointColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_FakePointPosition": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
       },
       "_FirstShadowMultColor": {
         "r": 1.0,
