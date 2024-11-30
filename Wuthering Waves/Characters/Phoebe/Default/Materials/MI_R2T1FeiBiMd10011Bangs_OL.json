@@ -1,0 +1,58 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleMS/Feibi/R2T1FeibiMd10011/Model/T_R2T1FeiBiMd10011Bangs_D.T_R2T1FeiBiMd10011Bangs_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/FemaleMS/Feibi/R2T1FeibiMd10011/Model/T_R2T1FeiBiMd10011Bangs_D.T_R2T1FeiBiMd10011Bangs_D",
+    "T_R2T1FeiBiMd10011Bangs_D": "Client/Content/Aki/Character/Role/FemaleMS/Feibi/R2T1FeibiMd10011/Model/T_R2T1FeiBiMd10011Bangs_D.T_R2T1FeiBiMd10011Bangs_D"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "OutlineColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "OutlineColorTint": {
+        "R": 0.5625,
+        "G": 0.4646,
+        "B": 0.218389,
+        "A": 0.0,
+        "Hex": "C6B681"
+      }
+    },
+    "Scalars": {
+      "MinWidth": 0.03,
+      "OutlineWidth": 0.14,
+      "CurvatureMax": 1.0,
+      "InnerOutlineOffset": 0.5,
+      "OutlineClipWidth": 1.2,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseMainTex": true,
+      "UseCurvature": true,
+      "UseVertexColorB_InnerOutline": true,
+      "UseVertexGreen_OutlineWidth": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_ToonOutline",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 250,
+        "bIsOnlyForSkeletalMesh": true,
+        "bDisableCastDynamicShadows": true,
+        "bIsBackFace": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

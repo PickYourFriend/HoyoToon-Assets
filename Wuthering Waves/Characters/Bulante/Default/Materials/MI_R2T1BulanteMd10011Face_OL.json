@@ -1,0 +1,47 @@
+{
+  "Textures": {},
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "OutlineColor": {
+        "R": 0.536458,
+        "G": 0.116278,
+        "B": 0.100266,
+        "A": 1.0,
+        "Hex": "C26059"
+      }
+    },
+    "Scalars": {
+      "OutlineWidth": 0.09,
+      "InnerOutlineMulti": 700.0,
+      "InnerOutlineOffset": 0.5,
+      "OutlineClipWidth": 1.0,
+      "OutlineHoldDistance": 1.5,
+      "OutlineMax": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseVertexColorB_InnerOutline": true,
+      "UseVertexGreen_OutlineWidth": true,
+      "UseClipSpaceOutline": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_ToonOutline",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 250,
+        "bIsOnlyForSkeletalMesh": true,
+        "bDisableCastDynamicShadows": true,
+        "bIsBackFace": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": true
+  }
+}

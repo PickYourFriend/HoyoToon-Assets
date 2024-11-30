@@ -1,0 +1,52 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/MaleXL/Bulante/R2T1BulanteMd10011/Model/T_R2T1BulanteMd10011Hair_D.T_R2T1BulanteMd10011Hair_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/MaleXL/Bulante/R2T1BulanteMd10011/Model/T_R2T1BulanteMd10011Hair_D.T_R2T1BulanteMd10011Hair_D",
+    "T_R2T1BulanteMd10011Hair_D": "Client/Content/Aki/Character/Role/MaleXL/Bulante/R2T1BulanteMd10011/Model/T_R2T1BulanteMd10011Hair_D.T_R2T1BulanteMd10011Hair_D"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "OutlineColorTint": {
+        "R": 0.5,
+        "G": 0.5,
+        "B": 0.5,
+        "A": 0.0,
+        "Hex": "BCBCBC"
+      }
+    },
+    "Scalars": {
+      "InnerOutlineMulti": 500.0,
+      "InnerOutlineOffset": 0.5,
+      "OutlineClipWidth": 0.7,
+      "OutlineHoldDistance": 1.5,
+      "OutlineMax": 0.6,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseMainTex": true,
+      "UseCurvature": true,
+      "UseVertexColorB_InnerOutline": true,
+      "UseVertexGreen_OutlineWidth": true,
+      "UseClipSpaceOutline": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_ToonOutline",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 250,
+        "bIsOnlyForSkeletalMesh": true,
+        "bDisableCastDynamicShadows": true,
+        "bIsBackFace": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

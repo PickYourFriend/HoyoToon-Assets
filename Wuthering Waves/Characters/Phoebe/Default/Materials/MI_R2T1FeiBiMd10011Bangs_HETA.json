@@ -1,0 +1,39 @@
+{
+  "Textures": {},
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {},
+    "Scalars": {
+      "ToonRimWidth": 0.05,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "IsHairHET": true,
+      "UseRimVertexA": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_ShadingModel": true,
+        "bOverride_TwoSided": true,
+        "bRenderInCustomCapturePass": true,
+        "ShadingModel": "MSM_ToonHair",
+        "OpacityMaskClipValue": 0.3333,
+        "bOverride_RenderQueue": true,
+        "RenderQueue": 195,
+        "bOverride_IsCharacterHairMat": true,
+        "bOverride_IsCharacterHETMat": true,
+        "bIsCharacterHETMat": true,
+        "bIsOnlyForSkeletalMesh": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": true
+  }
+}

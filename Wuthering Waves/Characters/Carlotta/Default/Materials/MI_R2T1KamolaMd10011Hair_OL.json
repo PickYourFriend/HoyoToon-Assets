@@ -1,0 +1,58 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleMS/Kmola/R2T1KamolaMd10011/Model/T_R2T1KamolaMd10011Hair_D.T_R2T1KamolaMd10011Hair_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/FemaleMS/Kmola/R2T1KamolaMd10011/Model/T_R2T1KamolaMd10011Hair_D.T_R2T1KamolaMd10011Hair_D",
+    "T_R2T1KamolaMd10011Hair_D": "Client/Content/Aki/Character/Role/FemaleMS/Kmola/R2T1KamolaMd10011/Model/T_R2T1KamolaMd10011Hair_D.T_R2T1KamolaMd10011Hair_D"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColorTint": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "OutlineColorTint": {
+        "R": 0.390625,
+        "G": 0.390625,
+        "B": 0.390625,
+        "A": 0.0,
+        "Hex": "A8A8A8"
+      }
+    },
+    "Scalars": {
+      "OutlineWidth": 0.1,
+      "InnerOutlineMulti": 500.0,
+      "InnerOutlineOffset": 0.5,
+      "OutlineClipWidth": 0.7,
+      "OutlineHoldDistance": 2.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseMainTex": true,
+      "UseCurvature": true,
+      "UseVertexColorB_InnerOutline": true,
+      "UseVertexGreen_OutlineWidth": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_ToonOutline",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 250,
+        "bIsOnlyForSkeletalMesh": true,
+        "bDisableCastDynamicShadows": true,
+        "bIsBackFace": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
