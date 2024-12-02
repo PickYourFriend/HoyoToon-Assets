@@ -1,0 +1,51 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleMS/Kmola/R2T1KamolaMd10011/Model/T_R2T1KamolaMd10011Up_LD.T_R2T1KamolaMd10011Up_LD",
+    "T_R2T1KamolaMd10011Up_LD": "Client/Content/Aki/Character/Role/FemaleMS/Kmola/R2T1KamolaMd10011/Model/T_R2T1KamolaMd10011Up_LD.T_R2T1KamolaMd10011Up_LD"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "OutlineColorTint": {
+        "R": 0.458333,
+        "G": 0.458333,
+        "B": 0.458333,
+        "A": 0.0,
+        "Hex": "B5B5B5"
+      }
+    },
+    "Scalars": {
+      "InnerOutlineMulti": 500.0,
+      "InnerOutlineOffset": 0.5,
+      "OutlineClipWidth": 0.7,
+      "OutlineHoldDistance": 1.5,
+      "OutlineMax": 0.7,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseMainTex": true,
+      "UseVertexColorB_InnerOutline": true,
+      "UseVertexGreen_OutlineWidth": true,
+      "UseClipSpaceOutline": true,
+      "UseOutlineMax": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_ToonOutline",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 250,
+        "bIsOnlyForSkeletalMesh": true,
+        "bDisableCastDynamicShadows": true,
+        "bIsBackFace": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
