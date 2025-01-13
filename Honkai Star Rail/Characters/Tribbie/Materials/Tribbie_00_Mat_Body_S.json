@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -7016092255023927970,
-    "Name": "miHoYo/CRP_Character/CharacterBase",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -468,7 +468,7 @@
       "_ShadowBoost": 0.0,
       "_ShadowBoostVal": 0.0,
       "_ShadowRamp": 1.0,
-      "_ShowPartID": 47.0,
+      "_ShowPartID": -48,
       "_SkyFresnelBaise": 0.0,
       "_SkyFresnelScale": 0.0,
       "_SkyFresnelSmooth": 0.0,

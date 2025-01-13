@@ -1,8 +1,8 @@
 {
   "m_Shader": {
-    "m_FileID": 1,
+    "m_FileID": 2,
     "m_PathID": -7016092255023927970,
-    "Name": "miHoYo/CRP_Character/CharacterBase",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -25,7 +25,7 @@
       },
       "_DiffuseCoolRampMultiTex": {
         "m_Texture": {
-          "m_FileID": 2,
+          "m_FileID": 3,
           "m_PathID": -4913177776902553445,
           "Name": "Avatar_Tribbie_00_Body_Cool_Ramp",
           "IsNull": false
@@ -41,7 +41,7 @@
       },
       "_DiffuseRampMultiTex": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 4,
           "m_PathID": -8353366251279049179,
           "Name": "Avatar_Tribbie_00_Body_Warm_Ramp",
           "IsNull": false
@@ -137,7 +137,7 @@
       },
       "_LightMap": {
         "m_Texture": {
-          "m_FileID": 4,
+          "m_FileID": 5,
           "m_PathID": -722248819380489538,
           "Name": "Avatar_Tribbie_00_Body_LightMap",
           "IsNull": false
@@ -153,7 +153,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 5,
+          "m_FileID": 6,
           "m_PathID": 7406742407871764041,
           "Name": "Avatar_Tribbie_00_Body_Color_A",
           "IsNull": false
@@ -201,9 +201,9 @@
       },
       "_MaterialValuesPackLUT": {
         "m_Texture": {
-          "m_FileID": 6,
+          "m_FileID": 7,
           "m_PathID": -6454091260741954441,
-          "Name": "MaterialIDValuesLUTJiaoqiu_00_Mat_Body_D",
+          "Name": "",
           "IsNull": false
         },
         "m_Scale": {
@@ -412,8 +412,8 @@
       "_ReflectionSoftness": 0.05,
       "_ReflectionThreshold": 0.5,
       "_RenderingMode": 0.0,
-      "_RimDark0": 0.6,
-      "_RimDark1": 0.6,
+      "_RimDark0": 0.5,
+      "_RimDark1": 0.5,
       "_RimDark2": 0.5,
       "_RimDark3": 0.5,
       "_RimDark4": 0.5,
@@ -421,7 +421,7 @@
       "_RimDark6": 0.5,
       "_RimDark7": 0.5,
       "_RimEdge": 0.015,
-      "_RimEdgeSoftness0": 0.9,
+      "_RimEdgeSoftness0": 0.5,
       "_RimEdgeSoftness1": 0.5,
       "_RimEdgeSoftness2": 0.5,
       "_RimEdgeSoftness3": 0.5,
@@ -468,7 +468,7 @@
       "_ShadowBoost": 0.0,
       "_ShadowBoostVal": 0.0,
       "_ShadowRamp": 1.0,
-      "_ShowPartID": -48,
+      "_ShowPartID": -90,
       "_SkyFresnelBaise": 0.0,
       "_SkyFresnelScale": 0.0,
       "_SkyFresnelSmooth": 0.0,
@@ -545,9 +545,9 @@
         "a": 0.0
       },
       "_BackColor": {
-        "r": 1.0,
-        "g": 0.9616745,
-        "b": 0.9386792,
+        "r": 0.88699996,
+        "g": 0.8480142,
+        "b": 0.82402295,
         "a": 1.0
       },
       "_CharaWorldSpaceOffset": {
@@ -761,33 +761,33 @@
         "a": 1.0
       },
       "_OutlineColor0": {
-        "r": 0.43529412,
-        "g": 0.14901961,
-        "b": 0.14901961,
+        "r": 0.360784,
+        "g": 0.15686244,
+        "b": 0.11764675,
         "a": 1.0
       },
       "_OutlineColor1": {
-        "r": 0.2735849,
-        "g": 0.17262618,
-        "b": 0.1238875,
+        "r": 0.28399974,
+        "g": 0.2048522,
+        "b": 0.102425985,
         "a": 1.0
       },
       "_OutlineColor2": {
-        "r": 0.27358484,
-        "g": 0.12731418,
-        "b": 0.0671057,
+        "r": 0.050462604,
+        "g": 0.112733625,
+        "b": 0.1981129,
         "a": 1.0
       },
       "_OutlineColor3": {
-        "r": 0.31132078,
-        "g": 0.15053448,
-        "b": 0.10866857,
+        "r": 0.1981129,
+        "g": 0.031772878,
+        "b": 0.031772878,
         "a": 1.0
       },
       "_OutlineColor4": {
-        "r": 0.2735849,
-        "g": 0.13710529,
-        "b": 0.10582058,
+        "r": 0.24528268,
+        "g": 0.10356789,
+        "b": 0.08561737,
         "a": 1.0
       },
       "_OutlineColor5": {
@@ -803,9 +803,9 @@
         "a": 1.0
       },
       "_OutlineColor7": {
-        "r": 0.27450982,
-        "g": 0.13725491,
-        "b": 0.105882354,
+        "r": 0.3301884,
+        "g": 0.16490543,
+        "b": 0.02024743,
         "a": 1.0
       },
       "_ReflectionBlendColor": {
@@ -821,33 +821,33 @@
         "a": 1.0
       },
       "_RimColor0": {
-        "r": 0.99215686,
-        "g": 0.9026379,
-        "b": 0.8862745,
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
         "a": 1.0
       },
       "_RimColor1": {
-        "r": 0.8962264,
-        "g": 0.8252047,
-        "b": 0.8201317,
+        "r": 0.7830188,
+        "g": 0.7830188,
+        "b": 0.7830188,
         "a": 1.0
       },
       "_RimColor2": {
-        "r": 0.8,
-        "g": 0.7276324,
-        "b": 0.7176471,
+        "r": 0.6981132,
+        "g": 0.6981132,
+        "b": 0.6981132,
         "a": 1.0
       },
       "_RimColor3": {
-        "r": 0.8584906,
-        "g": 0.7033827,
-        "b": 0.6560164,
+        "r": 0.745283,
+        "g": 0.745283,
+        "b": 0.745283,
         "a": 1.0
       },
       "_RimColor4": {
-        "r": 0.8679245,
-        "g": 0.7769471,
-        "b": 0.736917,
+        "r": 0.7830188,
+        "g": 0.7106266,
+        "b": 0.6796013,
         "a": 1.0
       },
       "_RimColor5": {
@@ -857,15 +857,15 @@
         "a": 1.0
       },
       "_RimColor6": {
-        "r": 0.61266464,
-        "g": 0.60421854,
-        "b": 0.6886792,
+        "r": 0.5734247,
+        "g": 0.56585974,
+        "b": 0.6415094,
         "a": 1.0
       },
       "_RimColor7": {
-        "r": 0.8666667,
-        "g": 0.7764706,
-        "b": 0.7372549,
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 1.0
       },
       "_RimOffset": {
@@ -895,13 +895,13 @@
       "_RimShadowColor3": {
         "r": 0.7830188,
         "g": 0.49183357,
-        "b": 0.343494,
+        "b": 0.34349397,
         "a": 1.0
       },
       "_RimShadowColor4": {
         "r": 0.6039216,
-        "g": 0.43137243,
-        "b": 0.3372548,
+        "g": 0.4313724,
+        "b": 0.33725476,
         "a": 1.0
       },
       "_RimShadowColor5": {
@@ -918,8 +918,8 @@
       },
       "_RimShadowColor7": {
         "r": 0.6415094,
-        "g": 0.32963943,
-        "b": 0.11801348,
+        "g": 0.3296394,
+        "b": 0.118013434,
         "a": 1.0
       },
       "_RimShadowOffset": {
@@ -948,8 +948,8 @@
       },
       "_SpecularColor": {
         "r": 1.0,
-        "g": 0.97711563,
-        "b": 0.8349056,
+        "g": 1.0,
+        "b": 1.0,
         "a": 1.0
       },
       "_SpecularColor0": {
@@ -971,15 +971,15 @@
         "a": 1.0
       },
       "_SpecularColor3": {
-        "r": 0.4150942,
-        "g": 0.3935563,
-        "b": 0.3935563,
+        "r": 0.41509417,
+        "g": 0.39355627,
+        "b": 0.39355627,
         "a": 1.0
       },
       "_SpecularColor4": {
-        "r": 0.27137604,
-        "g": 0.33688062,
-        "b": 0.33999988,
+        "r": 0.271376,
+        "g": 0.3368806,
+        "b": 0.33999985,
         "a": 1.0
       },
       "_SpecularColor5": {
@@ -995,9 +995,9 @@
         "a": 1.0
       },
       "_SpecularColor7": {
-        "r": 0.43396217,
-        "g": 0.43396217,
-        "b": 0.43396217,
+        "r": 0.4339621,
+        "g": 0.4339621,
+        "b": 0.4339621,
         "a": 1.0
       },
       "_StockDarkcolor": {
@@ -1007,9 +1007,9 @@
         "a": 1.0
       },
       "_Stockcolor": {
-        "r": 0.32075438,
-        "g": 0.27385157,
-        "b": 0.2988664,
+        "r": 0.32075435,
+        "g": 0.27385154,
+        "b": 0.29886636,
         "a": 1.0
       },
       "_VertexShadowColor": {
@@ -1068,6 +1068,6 @@
       }
     }
   },
-  "m_Name": "Tribbie_00_Mat_Body_D",
-  "Name": "Tribbie_00_Mat_Body_D"
+  "m_Name": "Tribbie_02_Mat_Body_D",
+  "Name": "Tribbie_02_Mat_Body_D"
 }
