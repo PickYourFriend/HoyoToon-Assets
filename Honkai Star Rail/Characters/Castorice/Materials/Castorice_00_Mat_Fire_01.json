@@ -1,0 +1,275 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -4939514610481348347,
+    "Name": "miHoYo/CRP_Particles/Particle_DissolveSwirl_Trail",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_DisTex": {
+        "m_Texture": {
+          "m_FileID": 13,
+          "m_PathID": 7946607726442365744,
+          "Name": "Eff_Nosie_303",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "m_Offset": {
+          "X": 0.64,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 14,
+          "m_PathID": -5513087950706767460,
+          "Name": "Eff_Trail_97_02",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 2.0,
+          "Y": 6.0
+        },
+        "m_Offset": {
+          "X": 0.1,
+          "Y": -2.54
+        }
+      },
+      "_MaskTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "m_Offset": {
+          "X": 2.0,
+          "Y": 2.0
+        }
+      },
+      "_NoiseTex": {
+        "m_Texture": {
+          "m_FileID": 15,
+          "m_PathID": 2890269457761216326,
+          "Name": "Eff_Noise_106",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 3.0,
+          "Y": 3.92
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_AdditionalDepthAlpha": 0.1,
+      "_AlphaDstBlend": 1.0,
+      "_AlphaSrcBlend": 0.0,
+      "_AlwaysOnTop": 4.0,
+      "_CL": 1.0,
+      "_CL2": 2.0,
+      "_CoverBackground": 0.0,
+      "_Cull": 0.0,
+      "_CustomData": 0.0,
+      "_DisTexG": 0.0,
+      "_Disappear": 0.0,
+      "_DitherAlpha": 1.0,
+      "_Dither_On": 0.0,
+      "_DstBlend": 1.0,
+      "_EnableRandomSeed": 0.0,
+      "_EyeProtectForceDisable": 0.0,
+      "_ForwardOpaqueOffsetX": 0.0,
+      "_ForwardOpaqueOffsetY": 0.0,
+      "_HasDepthFetchOpt": 0.0,
+      "_HideCharaParts": 0.0,
+      "_InteractiveBlend": 1.0,
+      "_InteractiveRadius": 1.0,
+      "_LineRendererAniRandomSeed": 0.0,
+      "_MASKCHANEL": 0.0,
+      "_MaskChannelA": 0.0,
+      "_MaskON": 0.0,
+      "_MaskTransparency": 0.0,
+      "_MeshUV2": 1.0,
+      "_Mid": 0.0,
+      "_NoiseSwitch": 0.0,
+      "_Opacity": 1.0,
+      "_OverrideAlphaByVertexColor": 0.0,
+      "_ReadMask": 255.0,
+      "_RenderingMode": 1.0,
+      "_Saturate": 0.0,
+      "_ShowID0": 0.0,
+      "_ShowID1": 0.0,
+      "_ShowID2": 0.0,
+      "_ShowID3": 0.0,
+      "_ShowID4": 0.0,
+      "_ShowID5": 0.0,
+      "_ShowID6": 0.0,
+      "_ShowID7": 0.0,
+      "_ShowPartID": 0.0,
+      "_SoftFar": 1.0,
+      "_SoftNear": 0.0,
+      "_SoftZClip": 0.0,
+      "_SoftZClipOffset": 1.0,
+      "_SoftZClipThreshold": 0.0,
+      "_SrcBlend": 5.0,
+      "_Stencil": 7.0,
+      "_StencilComp": 0.0,
+      "_UseInteractivePos": 0.0,
+      "_UseNojitterMatrix": 0.0,
+      "_UsePlayerPos": 0.0,
+      "_VFogInst": 0.0,
+      "_VertexColor": 0.0,
+      "_VolumeFogOn": 0.0,
+      "_WorldPosRandom": 0.0,
+      "_ZWrite": 0.0
+    },
+    "m_Colors": {
+      "_CustomUV": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DisGSpeed": {
+        "r": -0.05,
+        "g": -0.05,
+        "b": 0.5,
+        "a": 1.0
+      },
+      "_DisRSpeed": {
+        "r": 0.05,
+        "g": 0.05,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DisStep": {
+        "r": 0.88,
+        "g": 0.1,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FadeoutParams": {
+        "r": 2.0,
+        "g": 1.0,
+        "b": 0.1,
+        "a": 0.3
+      },
+      "_InsideColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_InteractiveColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+      },
+      "_InteractivePos": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MainChannel": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_MainChannelRGB": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MainColor": {
+        "r": 0.7203168,
+        "g": 0.34509802,
+        "b": 1.0,
+        "a": 0.40392157
+      },
+      "_MainSpeed": {
+        "r": 0.05,
+        "g": 0.0,
+        "b": 10.0,
+        "a": 1.0
+      },
+      "_MaskChannel": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MaskSpeed": {
+        "r": 0.05,
+        "g": 0.1,
+        "b": 0.87,
+        "a": 0.25
+      },
+      "_MaskTransparencyChannel": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_MaskUVoffset": {
+        "r": 1.0,
+        "g": 0.09,
+        "b": 0.05,
+        "a": 0.0
+      },
+      "_MidColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.1
+      },
+      "_NoiseSpeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 2.0,
+        "a": 0.0
+      },
+      "_NoiseSpeedG": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_OutSideColor": {
+        "r": 0.4596519,
+        "g": 0.16629584,
+        "b": 0.9528302,
+        "a": 0.0
+      },
+      "_SmoothStep": {
+        "r": 0.1,
+        "g": 0.5,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexColorFallback": {
+        "r": 0.3290306,
+        "g": 0.0,
+        "b": 0.39423242,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Castorice_00_Mat_Fire_01",
+  "Name": "Castorice_00_Mat_Fire_01"
+}
