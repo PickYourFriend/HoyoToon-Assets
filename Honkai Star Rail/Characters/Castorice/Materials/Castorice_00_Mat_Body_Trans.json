@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -569915600545274916,
-    "Name": "miHoYo/CRP_Character/CharacterTransparent",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -25,7 +25,7 @@
       },
       "_DiffuseCoolRampMultiTex": {
         "m_Texture": {
-          "m_FileID": 2,
+          "m_FileID": 6,
           "m_PathID": 8552227773349245400,
           "Name": "Avatar_Castorice_00_Body_Cool_Ramp",
           "IsNull": false
@@ -41,7 +41,7 @@
       },
       "_DiffuseRampMultiTex": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 7,
           "m_PathID": 8048197696060767404,
           "Name": "Avatar_Castorice_00_Body_Warm_Ramp",
           "IsNull": false
@@ -137,7 +137,7 @@
       },
       "_LightMap": {
         "m_Texture": {
-          "m_FileID": 16,
+          "m_FileID": 17,
           "m_PathID": -2057350671024570980,
           "Name": "Avatar_Castorice_00_Body_LightMap_L",
           "IsNull": false
@@ -153,7 +153,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 17,
+          "m_FileID": 18,
           "m_PathID": -834045681163503506,
           "Name": "Avatar_Castorice_00_Body_Color_A_L",
           "IsNull": false
@@ -201,7 +201,7 @@
       },
       "_MaterialValuesPackLUT": {
         "m_Texture": {
-          "m_FileID": 6,
+          "m_FileID": 3,
           "m_PathID": 4553706695809796897,
           "Name": "MaterialIDValuesLUTRen_00_Mat_Body1",
           "IsNull": false
@@ -233,7 +233,7 @@
       },
       "_SkyStarMaskTex": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 4,
           "m_PathID": 2584312576826189754,
           "Name": "UI3D_Eff_Sc_NoiseMulti_04",
           "IsNull": false
@@ -249,7 +249,7 @@
       },
       "_SkyStarTex": {
         "m_Texture": {
-          "m_FileID": 8,
+          "m_FileID": 5,
           "m_PathID": -3621115857567183137,
           "Name": "UI3D_Enviro_Stars_Big_2Channel",
           "IsNull": false
@@ -990,6 +990,12 @@
         "g": 0.0,
         "b": 0.0,
         "a": 0.0
+      },
+      "_VertexColorSwitch": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
       },
       "_VertexShadowColor": {
         "r": 1.0,

@@ -1,6 +1,6 @@
 {
   "m_Shader": {
-    "m_FileID": 1,
+    "m_FileID": 2,
     "m_PathID": -7682587881522096242,
     "Name": "",
     "IsNull": false
@@ -41,7 +41,7 @@
       },
       "_FaceExpression": {
         "m_Texture": {
-          "m_FileID": 2,
+          "m_FileID": 3,
           "m_PathID": -878639406805420856,
           "Name": "M_170_Lad_Face_ExpressionMap",
           "IsNull": false
@@ -57,7 +57,7 @@
       },
       "_FaceMap": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 4,
           "m_PathID": 4621519982094589888,
           "Name": "M_170_Lad_FaceMap_00",
           "IsNull": false
@@ -73,7 +73,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 4,
+          "m_FileID": 5,
           "m_PathID": -6658258872190258032,
           "Name": "Avatar_Anaxa_00_Face_Color",
           "IsNull": false
@@ -414,6 +414,12 @@
         "a": 1.0
       },
       "_SpecularColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_VertexColorSwitch": {
         "r": 1.0,
         "g": 1.0,
         "b": 1.0,

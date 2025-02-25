@@ -1,6 +1,6 @@
 {
   "m_Shader": {
-    "m_FileID": 1,
+    "m_FileID": 2,
     "m_PathID": -7016092255023927970,
     "Name": "",
     "IsNull": false
@@ -25,7 +25,7 @@
       },
       "_DiffuseCoolRampMultiTex": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 8,
           "m_PathID": 6445475606502418712,
           "Name": "Avatar_Anaxa_00_Body_Cool_Ramp",
           "IsNull": false
@@ -41,7 +41,7 @@
       },
       "_DiffuseRampMultiTex": {
         "m_Texture": {
-          "m_FileID": 8,
+          "m_FileID": 9,
           "m_PathID": -479667220040520012,
           "Name": "Avatar_Anaxa_00_Body_Warm_Ramp",
           "IsNull": false
@@ -57,7 +57,7 @@
       },
       "_DissolveMap": {
         "m_Texture": {
-          "m_FileID": 15,
+          "m_FileID": 16,
           "m_PathID": 1357980078207966834,
           "Name": "Eff_DHL_Noise_34",
           "IsNull": false
@@ -153,7 +153,7 @@
       },
       "_LightMap": {
         "m_Texture": {
-          "m_FileID": 9,
+          "m_FileID": 10,
           "m_PathID": -3217183267048673853,
           "Name": "Avatar_Anaxa_00_Body_LightMap_L",
           "IsNull": false
@@ -169,7 +169,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 10,
+          "m_FileID": 11,
           "m_PathID": 1376494866417779575,
           "Name": "Avatar_Anaxa_00_Body_Color_A_L",
           "IsNull": false
@@ -201,7 +201,7 @@
       },
       "_MatCapTex": {
         "m_Texture": {
-          "m_FileID": 11,
+          "m_FileID": 12,
           "m_PathID": -6210629218594687461,
           "Name": "Matcap_05",
           "IsNull": false
@@ -217,7 +217,7 @@
       },
       "_MaterialValuesPackLUT": {
         "m_Texture": {
-          "m_FileID": 12,
+          "m_FileID": 13,
           "m_PathID": 4819641301393273093,
           "Name": "MaterialIDValuesLUTFeixiao_00_Mat_Body_D",
           "IsNull": false
@@ -265,7 +265,7 @@
       },
       "_SkyStarMaskTex": {
         "m_Texture": {
-          "m_FileID": 13,
+          "m_FileID": 14,
           "m_PathID": 2027890173258510034,
           "Name": "UI3D_Eff_Water_Ice_Noise",
           "IsNull": false
@@ -1056,6 +1056,12 @@
         "r": 0.7869999,
         "g": 0.7763754,
         "b": 0.77047294,
+        "a": 1.0
+      },
+      "_VertexColorSwitch": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 1.0
       },
       "_VertexShadowColor": {

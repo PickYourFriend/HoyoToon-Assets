@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -7682587881522096242,
-    "Name": "miHoYo/CRP_Character/CharacterFace",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -41,7 +41,7 @@
       },
       "_FaceExpression": {
         "m_Texture": {
-          "m_FileID": 10,
+          "m_FileID": 11,
           "m_PathID": 2790083752718748404,
           "Name": "W_160_Maid_Face_ExpressionMap_00",
           "IsNull": false
@@ -57,7 +57,7 @@
       },
       "_FaceMap": {
         "m_Texture": {
-          "m_FileID": 11,
+          "m_FileID": 12,
           "m_PathID": -7086236821322118962,
           "Name": "W_160_Maid_FaceMap_01",
           "IsNull": false
@@ -73,7 +73,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 12,
+          "m_FileID": 13,
           "m_PathID": -4118416408365424713,
           "Name": "Avatar_Castorice_00_Face_Color",
           "IsNull": false
@@ -149,12 +149,14 @@
       "_GlobalOneMinusAvatarIntensityEnable": 0.0,
       "_HairBlendSilhouette": 0.5,
       "_HideCharaParts": 0.0,
+      "_IsMonster": 0.0,
       "_LipLineFixMax": 2.0,
       "_LipLineFixSC": 0.0,
       "_LipLineFixScale": 1.0,
       "_LipLineFixStart": 0.6,
       "_LipLineFixThrd": 0.8,
       "_NoseLinePower": 3.0,
+      "_OneMinusCharacterOutlineWidthScale": 0.0,
       "_Opaqueness": 1.0,
       "_OutlineExtdMax": 18.0,
       "_OutlineExtdMode": 0.0,
@@ -213,6 +215,12 @@
         "g": 1.0,
         "b": 1.0,
         "a": 1.0
+      },
+      "_CustomMainLightDir": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
       },
       "_DarkColor": {
         "r": 0.95294124,
@@ -401,15 +409,21 @@
         "a": 0.0
       },
       "_ShadowColor": {
-        "r": 0.99215686,
-        "g": 0.8980392,
-        "b": 0.9098039,
+        "r": 1.0,
+        "g": 0.9204703,
+        "b": 0.9137255,
         "a": 1.0
       },
       "_SpecularColor": {
         "r": 1.0,
         "g": 0.97711563,
         "b": 0.8349056,
+        "a": 1.0
+      },
+      "_VertexColorSwitch": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 1.0
       },
       "_VertexShadowColor": {

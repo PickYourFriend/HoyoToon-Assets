@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -8335713502764873453,
-    "Name": "miHoYo/CRP_Character/CharacterHair",
+    "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -89,10 +89,26 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 19,
+          "m_FileID": 20,
           "m_PathID": -3972660634378759076,
           "Name": "Avatar_Castorice_00_Hair_Color",
           "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NormalMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
         },
         "m_Scale": {
           "X": 1.0,
@@ -163,6 +179,8 @@
       "_HairStencilOp": 2.0,
       "_HideCharaParts": 0.0,
       "_IsMonster": 0.0,
+      "_NormalScale": 1.0,
+      "_OneMinusCharacterOutlineWidthScale": 0.0,
       "_Outline": 0.0,
       "_OutlineBlendOffset": 0.0,
       "_OutlineBlendWeight": 0.28,
@@ -216,6 +234,7 @@
       "_SpecularShininess": 3.0,
       "_SpecularShininess0": 4.0,
       "_StencilEye": 17.0,
+      "_UseNormalMap": 0.0,
       "_UsingAniso": 0.0,
       "_UsingDitherAlpha": 0.0,
       "_XorShadowPartID": 0.0,
@@ -239,6 +258,12 @@
         "g": 1.0,
         "b": 1.0,
         "a": 1.0
+      },
+      "_CustomMainLightDir": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
       },
       "_DissolveCenter": {
         "r": 0.0,
@@ -412,6 +437,12 @@
         "r": 0.3411134,
         "g": 0.3411134,
         "b": 0.352,
+        "a": 1.0
+      },
+      "_VertexColorSwitch": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 1.0
       },
       "_VertexShadowColor": {
