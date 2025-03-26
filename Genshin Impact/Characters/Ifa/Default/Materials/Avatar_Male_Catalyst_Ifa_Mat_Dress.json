@@ -1,6 +1,6 @@
 {
   "m_Shader": {
-    "m_FileID": 1,
+    "m_FileID": 5,
     "m_PathID": -5030116878936476770,
     "Name": "",
     "IsNull": false
@@ -9,7 +9,7 @@
     "m_TexEnvs": {
       "_BumpMap": {
         "m_Texture": {
-          "m_FileID": 2,
+          "m_FileID": 7,
           "m_PathID": 1764488373720655037,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Body_Normalmap",
           "IsNull": false
@@ -73,7 +73,7 @@
       },
       "_LightMapTex": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 6,
           "m_PathID": -2711762609418405725,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Body_Lightmap",
           "IsNull": false
@@ -89,9 +89,9 @@
       },
       "_MTMap": {
         "m_Texture": {
-          "m_FileID": 4,
+          "m_FileID": 10,
           "m_PathID": -867313356815120306,
-          "Name": "",
+          "Name": "Avatar_Tex_MetalMap",
           "IsNull": false
         },
         "m_Scale": {
@@ -105,9 +105,9 @@
       },
       "_MTSpecularRamp": {
         "m_Texture": {
-          "m_FileID": 5,
+          "m_FileID": 4,
           "m_PathID": 5094753009728422861,
-          "Name": "",
+          "Name": "Avatar_Tex_Specular_Ramp",
           "IsNull": false
         },
         "m_Scale": {
@@ -121,7 +121,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 6,
+          "m_FileID": 3,
           "m_PathID": -8517916554192265129,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Body_Diffuse",
           "IsNull": false
@@ -169,10 +169,10 @@
       },
       "_NyxStateOutlineColorRamp": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
+          "m_FileID": 2,
+          "m_PathID": 2042861971915167073,
+          "Name": "Avatar_Male_Catalyst_Ifa_Tex_NyxState_Ramp",
+          "IsNull": false
         },
         "m_Scale": {
           "X": 1.0,
@@ -185,9 +185,9 @@
       },
       "_NyxStateOutlineNoise": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 1,
           "m_PathID": 1718990294553321755,
-          "Name": "",
+          "Name": "Eff_Avatar_NyxState",
           "IsNull": false
         },
         "m_Scale": {
@@ -249,7 +249,7 @@
       },
       "_PackedShadowRampTex": {
         "m_Texture": {
-          "m_FileID": 8,
+          "m_FileID": 9,
           "m_PathID": -3351234367747561890,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Body_Shadow_Ramp",
           "IsNull": false
@@ -265,10 +265,10 @@
       },
       "_TempNyxStatePaintMaskTex": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
+          "m_FileID": 8,
+          "m_PathID": -7394285036120783528,
+          "Name": "Avatar_Male_Catalyst_Ifa_Tex_Mask",
+          "IsNull": false
         },
         "m_Scale": {
           "X": 1.0,
@@ -298,6 +298,9 @@
     },
     "m_Ints": null,
     "m_Floats": {
+      "_ASEHeader": 0.0,
+      "_AnimBoneOffset": 0.0,
+      "_AnimFPS": 15.0,
       "_BumpScale": 1.0,
       "_CharacterAmbientSensorColorOn": 0.0,
       "_CharacterAmbientSensorForceShadowOn": 0.0,
@@ -305,12 +308,21 @@
       "_CharacterEmission": 0.0,
       "_CharacterMainTex": 0.0,
       "_CharacterShadow": 0.0,
-      "_CullMode": 2.0,
+      "_ClipAlphaHighLightScale": 0.0,
+      "_ClipAlphaThreshold": 0.0,
+      "_ClipAlphaUVSet": 0.0,
+      "_ClipBoxHighLightScale": 0.2,
+      "_ClipDissolveDirection": 0.0,
+      "_ClipDissolveHightlightScale": 1.0,
+      "_ClipDissolveValue": 1.0,
+      "_ClipMethod": 0.0,
+      "_ClipPlaneWorld": 1.0,
+      "_CullMode": 0.0,
       "_Cutoff": 0.5,
       "_DesaturateScale": 0.0,
       "_DetailNormalMapScale": 1.0,
       "_DitherAlpha": 1.0,
-      "_DrawBackFace": 0.0,
+      "_DrawBackFace": 1.0,
       "_DstBlend": 0.0,
       "_DummyFixedForNormal": 1.0,
       "_DummyHitColor": 0.0,
@@ -355,6 +367,7 @@
       "_GlossyReflections": 1.0,
       "_HitColorFresnelPower": 1.5,
       "_HitColorScaler": 6.0,
+      "_InstanceData": 0.0,
       "_LightArea": 0.5,
       "_LightMapBlurSize": 1.0,
       "_LightMapLayerEnum": 0.0,
@@ -396,8 +409,9 @@
       "_OutlineGroup": 0.0,
       "_OutlineMotionVectorsCull": 1.0,
       "_OutlineOffsetBlockBChannel": 0.0,
-      "_OutlinePolygonOffsetFactor": 0.0,
-      "_OutlinePolygonOffsetUnit": 0.0,
+      "_OutlinePolygonOffsetFactor": 4.0,
+      "_OutlinePolygonOffsetUnit": 1.0,
+      "_OutlineType": 2.0,
       "_OutlineWidth": 0.03,
       "_PackageLightMapToggle": 0.0,
       "_PackageNormalMapToggle": 0.0,
@@ -436,20 +450,29 @@
       "_SpecularHighlights": 1.0,
       "_SrcBlend": 1.0,
       "_TempNyxStatePaintMaskChannel": 0.0,
+      "_TessEdgeLength": 10.0,
+      "_TessOutlineZOffset": 0.0,
+      "_TessPidStart": 0.0,
+      "_TessStrength": 1.0,
+      "_TessType": 0.0,
+      "_TessellationCheckInflectionOn": 1.0,
+      "_TessellationOn": 0.0,
       "_TextureBiasWhenDithering": -1.0,
       "_TextureLineSmoothness": 0.1,
       "_TextureLineThickness": 0.6,
       "_UVSec": 0.0,
       "_UseBackFaceUV2": 1.0,
       "_UseBumpMap": 1.0,
+      "_UseClipPlane": 0.0,
+      "_UseClipping": 0.0,
       "_UseCoolShadowColorOrTex": 1.0,
       "_UseFaceMapNew": 0.0,
       "_UseFakePoint": 0.0,
       "_UseLightMapColorAO": 1.0,
-      "_UseMaterial2": 1.0,
+      "_UseMaterial2": 0.0,
       "_UseMaterial3": 1.0,
       "_UseMaterial4": 1.0,
-      "_UseMaterial5": 1.0,
+      "_UseMaterial5": 0.0,
       "_UseMaterialMasksTex": 0.0,
       "_UseMobileBumpCompressSmooth": 0.0,
       "_UsePVMask1": 0.0,
@@ -461,10 +484,12 @@
       "_UseVertexColorAO": 1.0,
       "_UseVertexRampWidth": 1.0,
       "_UsingDitherAlpha": 0.0,
+      "_UtilityDisplay1": 0.0,
+      "_UtilityDisplay2": 0.0,
       "_ZWrite": 1.0,
       "_isNativeMainNormal": 0.0,
       "_shadowSoftRange": 1.0,
-      "_shadowSoftRange2": 1.0,
+      "_shadowSoftRange2": 0.0,
       "_shadowSoftRange3": 0.0,
       "_shadowSoftRange4": 0.0,
       "_shadowSoftRange5": 0.0,
@@ -494,6 +519,30 @@
         "a": 0.0
       },
       "_CharacterCubeColor5": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ClipBoxPositionOffset": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ClipBoxScale": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+      },
+      "_ClipHighLightColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ClipPlane": {
         "r": 0.0,
         "g": 0.0,
         "b": 0.0,
@@ -788,33 +837,33 @@
         "a": 0.0
       },
       "_OutlineColor": {
-        "r": 0.051470563,
-        "g": 0.04844287,
-        "b": 0.04844287,
+        "r": 0.051470548,
+        "g": 0.048442848,
+        "b": 0.048442848,
         "a": 1.0
       },
       "_OutlineColor2": {
-        "r": 0.10250867,
-        "g": 0.10056227,
-        "b": 0.1102941,
+        "r": 0.10250864,
+        "g": 0.10056225,
+        "b": 0.11029408,
         "a": 1.0
       },
       "_OutlineColor3": {
-        "r": 0.24264705,
-        "g": 0.18296961,
-        "b": 0.15343858,
+        "r": 0.24264699,
+        "g": 0.18296957,
+        "b": 0.15343854,
         "a": 1.0
       },
       "_OutlineColor4": {
-        "r": 0.12359423,
-        "g": 0.13235289,
-        "b": 0.13054076,
+        "r": 0.12359426,
+        "g": 0.13235292,
+        "b": 0.13054079,
         "a": 1.0
       },
       "_OutlineColor5": {
-        "r": 0.051470578,
-        "g": 0.051092118,
-        "b": 0.051092118,
+        "r": 0.051470563,
+        "g": 0.051092096,
+        "b": 0.051092096,
         "a": 1.0
       },
       "_OutlineWidthAdjustScales": {
@@ -872,13 +921,13 @@
         "a": 1.0
       },
       "_TextureLineMultiplier": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
         "a": 1.0
       }
     }
   },
-  "m_Name": "Avatar_Male_Catalyst_Ifa_Mat_Body",
-  "Name": "Avatar_Male_Catalyst_Ifa_Mat_Body"
+  "m_Name": "Avatar_Male_Catalyst_Ifa_Mat_Dress",
+  "Name": "Avatar_Male_Catalyst_Ifa_Mat_Dress"
 }
