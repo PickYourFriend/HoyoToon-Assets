@@ -1,6 +1,6 @@
 {
   "m_Shader": {
-    "m_FileID": 6,
+    "m_FileID": 7,
     "m_PathID": -5030116878936476770,
     "Name": "",
     "IsNull": false
@@ -9,7 +9,7 @@
     "m_TexEnvs": {
       "_BumpMap": {
         "m_Texture": {
-          "m_FileID": 2,
+          "m_FileID": 3,
           "m_PathID": -5877510745371633892,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Hair_Normalmap",
           "IsNull": false
@@ -73,7 +73,7 @@
       },
       "_LightMapTex": {
         "m_Texture": {
-          "m_FileID": 4,
+          "m_FileID": 5,
           "m_PathID": -3549443672790682611,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Hair_Lightmap",
           "IsNull": false
@@ -89,9 +89,9 @@
       },
       "_MTMap": {
         "m_Texture": {
-          "m_FileID": 8,
+          "m_FileID": 10,
           "m_PathID": -867313356815120306,
-          "Name": "",
+          "Name": "Avatar_Tex_MetalMap",
           "IsNull": false
         },
         "m_Scale": {
@@ -105,9 +105,9 @@
       },
       "_MTSpecularRamp": {
         "m_Texture": {
-          "m_FileID": 5,
+          "m_FileID": 6,
           "m_PathID": 5094753009728422861,
-          "Name": "",
+          "Name": "Avatar_Tex_Specular_Ramp",
           "IsNull": false
         },
         "m_Scale": {
@@ -121,7 +121,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 9,
           "m_PathID": -7758827856346181210,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Hair_Diffuse",
           "IsNull": false
@@ -169,10 +169,10 @@
       },
       "_NyxStateOutlineColorRamp": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
+          "m_FileID": 2,
+          "m_PathID": 2042861971915167073,
+          "Name": "Avatar_Male_Catalyst_Ifa_Tex_NyxState_Ramp",
+          "IsNull": false
         },
         "m_Scale": {
           "X": 1.0,
@@ -187,7 +187,7 @@
         "m_Texture": {
           "m_FileID": 1,
           "m_PathID": 1718990294553321755,
-          "Name": "",
+          "Name": "Eff_Avatar_NyxState",
           "IsNull": false
         },
         "m_Scale": {
@@ -249,7 +249,7 @@
       },
       "_PackedShadowRampTex": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 4,
           "m_PathID": 7149985809320188751,
           "Name": "Avatar_Male_Catalyst_Ifa_Tex_Hair_Shadow_Ramp",
           "IsNull": false
@@ -265,10 +265,10 @@
       },
       "_TempNyxStatePaintMaskTex": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
+          "m_FileID": 8,
+          "m_PathID": -7394285036120783528,
+          "Name": "Avatar_Male_Catalyst_Ifa_Tex_Mask",
+          "IsNull": false
         },
         "m_Scale": {
           "X": 1.0,
