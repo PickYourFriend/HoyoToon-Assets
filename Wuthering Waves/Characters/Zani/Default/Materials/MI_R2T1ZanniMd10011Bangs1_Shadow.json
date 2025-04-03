@@ -1,0 +1,372 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_R2T1ZanniMd10011Bangs1_Shadow",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_FaceShadowMesh_ZanniFireHair_Com'",
+        "ObjectPath": "Client/Content/Aki/Character/MaterialInstance/Material/SpecialMaterial/MI_FaceShadowMesh_ZanniFireHair_Com.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "VertexNormalExpand",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": -0.075357,
+          "ExpressionGUID": "D81DC5AF-4328D755-975EC894-D380C599"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tail_DissolveInnerRange",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": 10.0,
+          "ExpressionGUID": "9536E1B4-4030F2A8-FD2507B0-A0FDE300"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "DissolveTexSW",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 5.0,
+            "G": 2.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FFFF00"
+          },
+          "ExpressionGUID": "BFCFE44E-414743D2-06C7A0A3-7494A051"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_DissolvePos",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": -0.3,
+            "G": 5.0,
+            "B": 1.5,
+            "A": 5.0,
+            "Hex": "00FFFF"
+          },
+          "ExpressionGUID": "7A7D3021-4B427B8E-498635B8-D324EE16"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_DissolveTexSpeed",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": -0.3,
+            "G": -1.5,
+            "B": -2.0,
+            "A": -1.5,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "55DA34FF-4917B660-390C4BAE-117D9B67"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_DissolveUVStrength",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.5,
+            "G": 0.8,
+            "B": 0.8,
+            "A": 0.5,
+            "Hex": "7FBCE8E8"
+          },
+          "ExpressionGUID": "D598B4CD-4419AC4D-34512BAA-578E638F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "NoiseSparkColorAdd",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 60.0,
+            "G": 19.939209,
+            "B": 0.0,
+            "A": 0.519047,
+            "Hex": "84FFFF00"
+          },
+          "ExpressionGUID": "529BC4F4-4B38729A-37C329AA-F75F639E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "NoiseSparkColorMaskControl",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": -0.5,
+            "G": 0.0,
+            "B": 0.0,
+            "A": -0.5,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "3BFCAE95-42E60961-E65A54B1-2E1DD3F1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "NoiseSparkTexSW",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.3,
+            "B": 0.0,
+            "A": -0.6,
+            "Hex": "009500"
+          },
+          "ExpressionGUID": "F484806A-4D114D49-3DF8B59E-15E3FDB4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_IDButtomNoiseStrength",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.5,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 0.6,
+            "Hex": "99BCCCCC"
+          },
+          "ExpressionGUID": "8C637B49-4201590B-066897B1-19004D22"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_IDNoiseUVStrength",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.01,
+            "G": 0.05,
+            "B": 0.1,
+            "A": 0.0,
+            "Hex": "193F59"
+          },
+          "ExpressionGUID": "C323DB87-4881ADFF-5C1870AA-E32CBC54"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "IDNoiseUVControl",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": -0.13,
+            "G": 0.35,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "00A000"
+          },
+          "ExpressionGUID": "26D6D516-4ED7C6F7-BA4D7BA1-CD54192E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPOTexSW",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 2.0,
+            "G": 2.0,
+            "B": 0.0,
+            "A": -0.6,
+            "Hex": "FFFF00"
+          },
+          "ExpressionGUID": "AACC3A85-4B9E083E-EAFB70B9-1828DBC1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_ExpandAmount",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 0.5,
+            "A": 0.0,
+            "Hex": "00FFBC"
+          },
+          "ExpressionGUID": "804E95B0-42EDC657-DA444AB6-CF73ED9F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_NoiseDisplaceAmount",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.1,
+            "G": 1.0,
+            "B": 4.0,
+            "A": 1.0,
+            "Hex": "59FFFF"
+          },
+          "ExpressionGUID": "9FC82159-4AA9877B-828048B2-7895AD10"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Group_SineWaveAmount",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.1,
+            "G": 2.0,
+            "B": 5.0,
+            "A": 2.0,
+            "Hex": "59FFFF"
+          },
+          "ExpressionGUID": "31C21C46-45953FDF-B0DBCA9A-CC6765D5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "PositionOffset",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": -0.3,
+            "B": -0.5,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "78F9D0D5-467E69B0-6185FDB7-E1C869D4"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "TypeMask",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_R2T1ZanniMd10011Bangs1_ID'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/R2T1ZanniMd10011/Model/T_R2T1ZanniMd10011Bangs1_ID.0"
+          },
+          "ExpressionGUID": "92B758E8-427798D3-02F1F7B7-97018929"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "DissolveTex",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Tile_20002'",
+            "ObjectPath": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_20002.0"
+          },
+          "ExpressionGUID": "4DE30895-42B5EE44-822669B1-43DD76E7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "FlowTex",
+            "Association": "GlobalParameter",
+            "Index": -1,
+            "Flags": 0
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Tile_21001'",
+            "ObjectPath": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_21001.0"
+          },
+          "ExpressionGUID": "98B08A15-4EC21275-747FACA4-A8184D64"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bEnableSeparateTranslucency": true,
+        "BlendMode": "BLEND_Masked",
+        "ShadingModel": "MSM_ToonFace",
+        "OpacityMaskClipValue": 0.3333,
+        "bOverride_RenderQueue": true,
+        "RenderQueue": 190,
+        "bCastRayTracedShadows": true,
+        "bIsOnlyForSkeletalMesh": true
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseFireHair",
+              "Association": "GlobalParameter",
+              "Index": -1,
+              "Flags": 0
+            },
+            "bOverride": true,
+            "ExpressionGUID": "2A6603F0-4ED3945F-E6FB0EA2-1CE3B138"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_DefaultColorBlack_D'",
+          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_D.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D'T_DefaultColorBlack_Linear_D'",
+          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_Linear_D.0"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]
