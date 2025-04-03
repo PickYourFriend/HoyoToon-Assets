@@ -1,223 +1,68 @@
-[
-  {
-    "Type": "MaterialInstanceConstant",
-    "Name": "MI_R2T1ZanniMd10011Hair1_FX",
-    "Class": "UScriptClass'MaterialInstanceConstant'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Parent": {
-        "ObjectName": "Material'M_Distortion_ZanniFireHair'",
-        "ObjectPath": "Client/Content/Aki/Render/Shaders/Character/SpecialMaterial/M_Distortion_ZanniFireHair.0"
+{
+  "Textures": {
+    "Mask": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_21001.T_Tile_21001",
+    "T_Tile_21001": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_21001.T_Tile_21001",
+    "PM_Normals": "Client/Content/Aki/Effect/Texture/Normal/T_Normal_001.T_Normal_001",
+    "Normal": "Client/Content/Aki/Effect/Texture/Normal/T_Normal_001.T_Normal_001",
+    "BaseTex": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_30017.T_Tile_30017",
+    "T_Tile_30017": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_30017.T_Tile_30017",
+    "FlowTex": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_20003.T_Tile_20003",
+    "T_Tile_20003": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_20003.T_Tile_20003"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "Normal_UV": {
+        "R": 5.0,
+        "G": 2.0,
+        "B": 0.0,
+        "A": -2.0,
+        "Hex": "FFFF00"
       },
+      "BaseTexSW1": {
+        "R": 25.0,
+        "G": 2.0,
+        "B": 0.0,
+        "A": -1.0,
+        "Hex": "FFFF00"
+      },
+      "MaskTexSW1": {
+        "R": 7.0,
+        "G": 3.0,
+        "B": 0.0,
+        "A": -0.5,
+        "Hex": "FFFF00"
+      },
+      "WPOTexSW": {
+        "R": 2.0,
+        "G": 2.0,
+        "B": 0.0,
+        "A": -0.219048,
+        "Hex": "FFFF00"
+      },
+      "MaskControl": {
+        "R": 0.0,
+        "G": 0.1,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "005900"
+      }
+    },
+    "Scalars": {
+      "Distortion_Intensity": 0.02,
+      "Normal_Strength": 30.0,
+      "Opacity": 0.3,
+      "ExpandAmount": 50.0,
+      "NoiseDisplaceAmount": 3.0,
+      "SineWaveAmount": 10.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseNormal": true
+    },
+    "Properties": {
       "bHasStaticPermutationResource": true,
-      "ScalarParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "Distortion_Intensity",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 0.02,
-          "ExpressionGUID": "2F0AFBF1-45742A8C-61ADCE95-AF329D8E"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "Normal_Strength",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 30.0,
-          "ExpressionGUID": "4BC7A7BE-434C6120-439AD9A9-FA1CCE0D"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "Opacity",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 0.3,
-          "ExpressionGUID": "2967B587-40CA2920-75673DB0-88AD06DE"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "ExpandAmount",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 50.0,
-          "ExpressionGUID": "D83B268E-42E1133A-7F9AC7B3-C69A110D"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "NoiseDisplaceAmount",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 3.0,
-          "ExpressionGUID": "117FF2C9-4DDC582F-43169BA2-DC98E303"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "SineWaveAmount",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 10.0,
-          "ExpressionGUID": "4D42FFA2-45C75A77-FE68BA83-E24116A4"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "RefractionDepthBias",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 0.0,
-          "ExpressionGUID": "00000000-00000000-00000000-00000000"
-        }
-      ],
-      "VectorParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "Normal_UV",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": 5.0,
-            "G": 2.0,
-            "B": 0.0,
-            "A": -2.0,
-            "Hex": "FFFF00"
-          },
-          "ExpressionGUID": "6AB48207-41E5BD7B-0856FC84-90718630"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "BaseTexSW1",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": 25.0,
-            "G": 2.0,
-            "B": 0.0,
-            "A": -1.0,
-            "Hex": "FFFF00"
-          },
-          "ExpressionGUID": "7152B709-4F19409C-32290F97-A58C168E"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "MaskTexSW1",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": 7.0,
-            "G": 3.0,
-            "B": 0.0,
-            "A": -0.5,
-            "Hex": "FFFF00"
-          },
-          "ExpressionGUID": "F752781C-48222D01-5289F599-FB169829"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "WPOTexSW",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": 2.0,
-            "G": 2.0,
-            "B": 0.0,
-            "A": -0.219048,
-            "Hex": "FFFF00"
-          },
-          "ExpressionGUID": "97C06409-4E4ADAC4-E8A8F1A0-58744464"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "MaskControl",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": 0.0,
-            "G": 0.1,
-            "B": 0.0,
-            "A": 0.0,
-            "Hex": "005900"
-          },
-          "ExpressionGUID": "BAD95C87-4A853909-347B32AC-5A0C70CC"
-        }
-      ],
-      "TextureParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "Mask",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "ObjectName": "Texture2D'T_Tile_21001'",
-            "ObjectPath": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_21001.0"
-          },
-          "ExpressionGUID": "58444FE3-474B570F-3B356992-D9402D64"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "Normal",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "ObjectName": "Texture2D'T_Normal_001'",
-            "ObjectPath": "Client/Content/Aki/Effect/Texture/Normal/T_Normal_001.0"
-          },
-          "ExpressionGUID": "06B7762C-404D1E2D-913DF29D-EDFE45C3"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "BaseTex",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "ObjectName": "Texture2D'T_Tile_30017'",
-            "ObjectPath": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_30017.0"
-          },
-          "ExpressionGUID": "481E071A-442651F8-F0908DA6-C9210855"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "FlowTex",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "ObjectName": "Texture2D'T_Tile_20003'",
-            "ObjectPath": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_20003.0"
-          },
-          "ExpressionGUID": "8F212A62-49BD6D12-6990CCB9-BAFFC5D4"
-        }
-      ],
       "BasePropertyOverrides": {
         "TwoSided": true,
         "BlendMode": "BLEND_Translucent",
@@ -225,38 +70,13 @@
         "OpacityMaskClipValue": 0.3333,
         "RenderQueue": 200,
         "bCastRayTracedShadows": true
-      },
-      "StaticParameters": {
-        "StaticSwitchParameters": [
-          {
-            "Value": true,
-            "ParameterInfo": {
-              "Name": "UseNormal",
-              "Association": "GlobalParameter",
-              "Index": -1,
-              "Flags": 0
-            },
-            "bOverride": true,
-            "ExpressionGUID": "AEC598A6-4C3F220C-076D999B-11B0142D"
-          }
-        ]
-      },
-      "CachedReferencedTextures": [
-        {
-          "ObjectName": "Texture2D'T_DefaultNormal_N'",
-          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultNormal_N.0"
-        },
-        {
-          "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
-          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
-        },
-        null,
-        {
-          "ObjectName": "Texture2D'T_DefaultColorBlack_D'",
-          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_D.0"
-        }
-      ]
+      }
     },
-    "LoadedMaterialResources": []
+    "HasTopDiffuse": false,
+    "HasTopNormals": true,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
   }
-]
+}

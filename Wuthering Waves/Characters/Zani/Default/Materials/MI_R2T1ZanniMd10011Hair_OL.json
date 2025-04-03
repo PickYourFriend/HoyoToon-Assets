@@ -1,116 +1,42 @@
-[
-  {
-    "Type": "MaterialInstanceConstant",
-    "Name": "MI_R2T1ZanniMd10011Hair_OL",
-    "Class": "UScriptClass'MaterialInstanceConstant'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Parent": {
-        "ObjectName": "MaterialInstanceConstant'MI_HairOL_Default'",
-        "ObjectPath": "Client/Content/Aki/Character/MaterialInstance/Outline/MI_HairOL_Default.0"
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/R2T1ZanniMd10011/Model/T_R2T1ZanniMd10011Hair_D.T_R2T1ZanniMd10011Hair_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/R2T1ZanniMd10011/Model/T_R2T1ZanniMd10011Hair_D.T_R2T1ZanniMd10011Hair_D",
+    "T_R2T1ZanniMd10011Hair_D": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/R2T1ZanniMd10011/Model/T_R2T1ZanniMd10011Hair_D.T_R2T1ZanniMd10011Hair_D"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "OutlineColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
       },
+      "OutlineColorTint": {
+        "R": 0.6,
+        "G": 0.55,
+        "B": 0.55,
+        "A": 0.0,
+        "Hex": "CCC4C4"
+      }
+    },
+    "Scalars": {
+      "MinWidth": 0.03,
+      "OutlineWidth": 0.12,
+      "OutlineClipWidth": 1.5,
+      "OutlineHoldDistance": 2.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseMainTex": true,
+      "UseVertexColorB_InnerOutline": true,
+      "UseVertexGreen_OutlineWidth": true
+    },
+    "Properties": {
       "bHasStaticPermutationResource": true,
-      "ScalarParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "MinWidth",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 0.03,
-          "ExpressionGUID": "DFA2BC86-4D6FFC90-3F237495-823F7BF8"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "OutlineWidth",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 0.12,
-          "ExpressionGUID": "EE7DBCB3-4D67074B-0EB48B94-48D6044F"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "OutlineClipWidth",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 1.5,
-          "ExpressionGUID": "365492A2-4D0425F1-D53A48AD-AFFD8306"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "OutlineHoldDistance",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 2.0,
-          "ExpressionGUID": "86CA00F4-4289401A-0E4DA2AE-B97DB1C4"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "RefractionDepthBias",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 0.0,
-          "ExpressionGUID": "00000000-00000000-00000000-00000000"
-        }
-      ],
-      "VectorParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "OutlineColor",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": 0.0,
-            "G": 0.0,
-            "B": 0.0,
-            "A": 1.0,
-            "Hex": "000000"
-          },
-          "ExpressionGUID": "9990BBB0-4B0CB202-B1BE18A7-98A085F8"
-        },
-        {
-          "ParameterInfo": {
-            "Name": "OutlineColorTint",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": 0.6,
-            "G": 0.55,
-            "B": 0.55,
-            "A": 0.0,
-            "Hex": "CCC4C4"
-          },
-          "ExpressionGUID": "4FD879AC-4B395F7B-8240E296-B9B59B20"
-        }
-      ],
-      "TextureParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "MainTex",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "ObjectName": "Texture2D'T_R2T1ZanniMd10011Hair_D'",
-            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/R2T1ZanniMd10011/Model/T_R2T1ZanniMd10011Hair_D.0"
-          },
-          "ExpressionGUID": "1C989A56-4631B9AD-84409CB8-D44C2A72"
-        }
-      ],
       "BasePropertyOverrides": {
         "ShadingModel": "MSM_ToonOutline",
         "OpacityMaskClipValue": 0.3333,
@@ -119,70 +45,13 @@
         "bIsOnlyForSkeletalMesh": true,
         "bDisableCastDynamicShadows": true,
         "bIsBackFace": true
-      },
-      "StaticParameters": {
-        "StaticSwitchParameters": [
-          {
-            "Value": true,
-            "ParameterInfo": {
-              "Name": "UseMainTex",
-              "Association": "GlobalParameter",
-              "Index": -1,
-              "Flags": 0
-            },
-            "bOverride": true,
-            "ExpressionGUID": "831C80FD-407B5944-C0C74681-9FE8352D"
-          },
-          {
-            "Value": true,
-            "ParameterInfo": {
-              "Name": "UseVertexColorB_InnerOutline",
-              "Association": "GlobalParameter",
-              "Index": -1,
-              "Flags": 0
-            },
-            "bOverride": true,
-            "ExpressionGUID": "8647A1DB-4B5766D7-F369F3B9-2B2283DD"
-          },
-          {
-            "Value": true,
-            "ParameterInfo": {
-              "Name": "UseVertexGreen_OutlineWidth",
-              "Association": "GlobalParameter",
-              "Index": -1,
-              "Flags": 0
-            },
-            "bOverride": true,
-            "ExpressionGUID": "C4001BCA-4126A1C5-C7ACEEB7-5BD1E4FA"
-          }
-        ]
-      },
-      "CachedReferencedTextures": [
-        {
-          "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
-          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
-        },
-        {
-          "ObjectName": "Texture2D'T_DefaultColorBlack_D'",
-          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_D.0"
-        },
-        {
-          "ObjectName": "Texture2D'T_DefaultColorBlack_Linear_D'",
-          "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_Linear_D.0"
-        },
-        {
-          "ObjectName": "Texture2D'T_Tile_19_Vec'",
-          "ObjectPath": "Client/Content/Aki/Effect/Texture/Tile/T_Tile_19_Vec.0"
-        }
-      ],
-      "TextureStreamingData": [
-        {
-          "SamplingScale": 1.0,
-          "UVChannelIndex": 0,
-          "TextureName": "T_R2T1ZanniMd10011Hair_D"
-        }
-      ]
+      }
     },
-    "LoadedMaterialResources": []
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
   }
-]
+}

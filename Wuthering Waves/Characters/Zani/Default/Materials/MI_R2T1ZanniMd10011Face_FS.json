@@ -1,44 +1,22 @@
-[
-  {
-    "Type": "MaterialInstanceConstant",
-    "Name": "MI_R2T1ZanniMd10011Face_FS",
-    "Class": "UScriptClass'MaterialInstanceConstant'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+{
+  "Textures": {},
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "PositionOffset": {
+        "R": -0.252381,
+        "G": 0.0,
+        "B": -0.15,
+        "A": 0.0,
+        "Hex": "000000"
+      }
+    },
+    "Scalars": {
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
     "Properties": {
-      "Parent": {
-        "ObjectName": "Material'M_FaceShadowMesh'",
-        "ObjectPath": "Client/Content/Aki/Render/Shaders/Character/M_FaceShadowMesh.0"
-      },
-      "ScalarParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "RefractionDepthBias",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": 0.0,
-          "ExpressionGUID": "00000000-00000000-00000000-00000000"
-        }
-      ],
-      "VectorParameterValues": [
-        {
-          "ParameterInfo": {
-            "Name": "PositionOffset",
-            "Association": "GlobalParameter",
-            "Index": -1,
-            "Flags": 0
-          },
-          "ParameterValue": {
-            "R": -0.252381,
-            "G": 0.0,
-            "B": -0.15,
-            "A": 0.0,
-            "Hex": "000000"
-          },
-          "ExpressionGUID": "78F9D0D5-467E69B0-6185FDB7-E1C869D4"
-        }
-      ],
       "BasePropertyOverrides": {
         "bEnableSeparateTranslucency": true,
         "ShadingModel": "MSM_ToonFace",
@@ -48,6 +26,11 @@
         "bIsOnlyForSkeletalMesh": true
       }
     },
-    "LoadedMaterialResources": []
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": true
   }
-]
+}
