@@ -1,6 +1,6 @@
 {
   "m_Shader": {
-    "m_FileID": 2,
+    "m_FileID": 12,
     "m_PathID": -7016092255023927970,
     "Name": "",
     "IsNull": false
@@ -41,7 +41,7 @@
       },
       "_DiffuseRampMultiTex": {
         "m_Texture": {
-          "m_FileID": 7,
+          "m_FileID": 4,
           "m_PathID": -7469380049440034804,
           "Name": "Avatar_Cipher_00_Body_Warm_Ramp",
           "IsNull": false
@@ -153,7 +153,7 @@
       },
       "_LightMap": {
         "m_Texture": {
-          "m_FileID": 8,
+          "m_FileID": 6,
           "m_PathID": -5221194281018348762,
           "Name": "Avatar_Cipher_00_Body_LightMap_L",
           "IsNull": false
@@ -169,7 +169,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 11,
+          "m_FileID": 9,
           "m_PathID": -6785131165385380978,
           "Name": "Avatar_Cipher_00_Body_Color_L",
           "IsNull": false
@@ -201,9 +201,9 @@
       },
       "_MatCapTex": {
         "m_Texture": {
-          "m_FileID": 15,
+          "m_FileID": 14,
           "m_PathID": 8994023702273165876,
-          "Name": "",
+          "Name": "Matcap_07",
           "IsNull": false
         },
         "m_Scale": {
@@ -217,9 +217,9 @@
       },
       "_MaterialValuesPackLUT": {
         "m_Texture": {
-          "m_FileID": 9,
-          "m_PathID": -4775748680096058396,
-          "Name": "MaterialIDValuesLUTYunli_00_Mat_Body_D",
+          "m_FileID": 0,
+          "m_PathID": -7415738945438728307,
+          "Name": "MaterialIDValuesLUTCipher_00_Mat_Body_S",
           "IsNull": false
         },
         "m_Scale": {
@@ -495,14 +495,6 @@
       "_ShadowBoost": 0.0,
       "_ShadowBoostVal": 0.0,
       "_ShadowRamp": 1.0,
-      "_ShowID0": 0.0,
-      "_ShowID1": 0.0,
-      "_ShowID2": 0.0,
-      "_ShowID3": 0.0,
-      "_ShowID4": 0.0,
-      "_ShowID5": 0.0,
-      "_ShowID6": 0.0,
-      "_ShowID7": 0.0,
       "_ShowPartID": 0.0,
       "_SkyFresnelBaise": 0.0,
       "_SkyFresnelScale": 0.0,
@@ -556,7 +548,7 @@
       "_Stockthickness": 0.161,
       "_UseGlint": 0.0,
       "_UseMatcap": 0.0,
-      "_UseMaterialValuesLUT": 0.0,
+      "_UseMaterialValuesLUT": 1.0,
       "_UseMoonHalo": 0.0,
       "_UseNormalMap": 0.0,
       "_UseOverHeated": 0.0,
@@ -588,12 +580,6 @@
       },
       "_CharaWorldSpaceOffset": {
         "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_CharacterLocalMainLightPack1": {
-        "r": 10000.0,
         "g": 0.0,
         "b": 0.0,
         "a": 0.0
@@ -801,12 +787,6 @@
         "g": -1.0,
         "b": 0.0,
         "a": 0.25
-      },
-      "_MainMaps_ST": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 0.0,
-        "a": 0.0
       },
       "_MatCapColor": {
         "r": 0.4245283,

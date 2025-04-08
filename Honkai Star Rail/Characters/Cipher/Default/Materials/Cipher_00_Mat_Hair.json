@@ -89,7 +89,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 6,
+          "m_FileID": 1,
           "m_PathID": -3193217698740019355,
           "Name": "Avatar_Cipher_00_Hair_Color",
           "IsNull": false
@@ -249,12 +249,6 @@
       },
       "_CharaWorldSpaceOffset": {
         "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_CharacterLocalMainLightPack1": {
-        "r": 10000.0,
         "g": 0.0,
         "b": 0.0,
         "a": 0.0

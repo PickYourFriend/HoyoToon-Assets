@@ -1,6 +1,6 @@
 {
   "m_Shader": {
-    "m_FileID": 2,
+    "m_FileID": 1,
     "m_PathID": -7682587881522096242,
     "Name": "",
     "IsNull": false
@@ -41,9 +41,9 @@
       },
       "_FaceExpression": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 2,
           "m_PathID": 2790083752718748404,
-          "Name": "",
+          "Name": "W_160_Maid_Face_ExpressionMap_00",
           "IsNull": false
         },
         "m_Scale": {
@@ -57,9 +57,9 @@
       },
       "_FaceMap": {
         "m_Texture": {
-          "m_FileID": 4,
+          "m_FileID": 3,
           "m_PathID": -8847959300088780513,
-          "Name": "",
+          "Name": "W_160_Maid_FaceMap_00",
           "IsNull": false
         },
         "m_Scale": {
@@ -73,7 +73,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 5,
+          "m_FileID": 4,
           "m_PathID": 7060372763378549757,
           "Name": "Avatar_Cipher_00_Face_Color",
           "IsNull": false
