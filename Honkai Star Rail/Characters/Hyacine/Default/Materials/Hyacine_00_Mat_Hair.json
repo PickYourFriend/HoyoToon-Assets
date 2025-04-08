@@ -89,7 +89,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 0,
+          "m_FileID": 15,
           "m_PathID": 838108135097948825,
           "Name": "Avatar_Hyacine_00_Hair_Color",
           "IsNull": false
@@ -437,6 +437,12 @@
         "r": 0.7075471,
         "g": 0.3971609,
         "b": 0.3971609,
+        "a": 1.0
+      },
+      "_VertexColorSwitch": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 1.0
       },
       "_VertexShadowColor": {
