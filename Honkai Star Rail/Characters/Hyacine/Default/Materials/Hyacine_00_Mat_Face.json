@@ -41,7 +41,7 @@
       },
       "_FaceExpression": {
         "m_Texture": {
-          "m_FileID": 10,
+          "m_FileID": 11,
           "m_PathID": 8606849378485051751,
           "Name": "W_140_Girl_Face_ExpressionMap_00",
           "IsNull": false
@@ -57,7 +57,7 @@
       },
       "_FaceMap": {
         "m_Texture": {
-          "m_FileID": 11,
+          "m_FileID": 12,
           "m_PathID": -9027926430380391551,
           "Name": "W_140_Girl_FaceMap_00",
           "IsNull": false
@@ -73,7 +73,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 0,
+          "m_FileID": 13,
           "m_PathID": -3357548767627169303,
           "Name": "Avatar_Hyacine_00_Face_Color",
           "IsNull": false
@@ -414,6 +414,12 @@
         "a": 1.0
       },
       "_SpecularColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_VertexColorSwitch": {
         "r": 1.0,
         "g": 1.0,
         "b": 1.0,
