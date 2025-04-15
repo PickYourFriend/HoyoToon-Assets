@@ -1,3 +1,8 @@
+
+> [!CAUTION]
+> The repo has been archived and moved to a self hosted solution due to legal reasons. For a more up to date repo, assets and a better system join the [Discord](https://discord.gg/hoyotoon).
+
+
 <br>
 <p align="center">
     <a href="https://github.com/Melioli/HoyoToon"><img src="https://github.com/user-attachments/assets/59985984-7abd-47d8-9955-3e00454ea1a2" alt="HoyoToon"/></a>
